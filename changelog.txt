@@ -1,0 +1,2 @@
+== Frist release ==
+   * Morning Time Lite - 1.0.0
