@@ -69,7 +69,7 @@ function wplook_widgets_init() {
 	register_sidebar( array(
 		'name' => __( 'Second Footer Widget Area', 'morningtime-lite' ),
 		'id' => 'f2-widgets',
-		'description' => __( 'The first footer widget area', 'morningtime-lite' ),
+		'description' => __( 'The second footer widget area', 'morningtime-lite' ),
 		'before_widget' => '<section id="%1$s" class="widget footer-section %2$s">',
 		'after_widget' => "</section>",
 		'before_title' => '<div class="footer-section-head"><h3 class="footer-section-title">',
@@ -79,7 +79,7 @@ function wplook_widgets_init() {
 	register_sidebar( array(
 		'name' => __( 'Third Footer Widget Area', 'morningtime-lite' ),
 		'id' => 'f3-widgets',
-		'description' => __( 'The first footer widget area', 'morningtime-lite' ),
+		'description' => __( 'The third footer widget area', 'morningtime-lite' ),
 		'before_widget' => '<section id="%1$s" class="widget footer-section %2$s">',
 		'after_widget' => "</section>",
 		'before_title' => '<div class="footer-section-head"><h3 class="footer-section-title">',
