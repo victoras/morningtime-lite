@@ -1,2 +1,5 @@
 == Frist release ==
-   * Morning Time Lite - 1.0.0
+* Morning Time Lite - 1.0.6
+- Fixed the Social Widget.
+
+* Morning Time Lite - 1.0.5
