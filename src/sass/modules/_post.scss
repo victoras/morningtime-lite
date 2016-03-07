@@ -1,0 +1,261 @@
+/* ------------------------------------------------------------ *\
+	Post
+\* ------------------------------------------------------------ */
+
+.post { position: relative; background: $white; padding: 55px 0 41px; margin-bottom: 40px; }
+.post-head { text-align: center; }
+.post-date { color: $grey; text-transform: uppercase; font-size: 13px; margin-bottom: 13px; }
+.post-title { font-size: 25px; color: $dark-grey; font-weight: bold; margin-bottom: 19px; }
+.post-title a { color: $dark-grey; }
+.post-title a:hover { color: $blue; }
+.post-category { list-style: none outside none; text-align: center; font-size: 0; margin: 0 0 35px; padding: 0 60px;}
+.post-category li { display: inline-block; vertical-align: top; font-size: 13px; text-transform: uppercase; font-weight: 300; }
+.post-category li + li:before { content: '/'; margin: 0 2px 0 7px; color: $dark-orange; }
+.post-category a { color: $dark-orange; }
+.post-category a:hover { color: $grey; }
+.post-meta { position: relative; z-index: 100; margin-bottom: 20px; }
+
+.post-image p {margin: 0px;}
+
+.post-author { display: block; width: 70px; height: 70px; border: 5px solid #fff; border-radius: 50%; overflow: hidden; margin: -35px auto 0; }
+.post-author img { max-width: 100%; }
+
+.post .entry { margin-bottom: 37px; padding: 0 60px; }
+.post .entry p { font-size: 14.5px; line-height: 1.7; color: $grey; }
+.post .entry {
+	ul, ol { color: $grey; }
+}
+.post .entry .twitter-tweet.twitter-tweet-rendered { width: 100%!important; }
+.post .entry table { width: 100%; }
+.post input[type="password"] { max-width: 50%;}
+
+.post-actions { text-align: center; }
+.post-actions .button { padding: 12px 26px 11px; }
+
+.post-foot { overflow: hidden; margin: -11px 0 50px; padding: 0 60px; }
+.post-tags { float: left; font-size: 13.5px; color: $dark-grey; }
+.post-tags .fa { margin-right: 10px; font-size: 14px; color: $grey; }
+.post-tags a { color: $dark-orange; }
+.post-tags a:hover { color: $grey; }
+.post-foot {
+	.socials { float: right; }
+	.socials ul { margin: 0; }
+	.socials li { padding-top: 0; }
+}
+
+.post-author-box { background: $light-grey; padding: 30px 60px 49px; }
+.post-author-box-image { float: left; width: 104px; height: 104px; border: 2px solid $white; border-radius: 50%; margin: 10px 35px 0 0; overflow: hidden; }
+.post-author-box-content { overflow: hidden; }
+.post-author-box-content h4 { font-size: 19px; margin-bottom: 15px; }
+.post-author-box-content p { font-size: 13.5px; line-height: 1.5; }
+
+.post-nav { padding: 40px 60px; overflow: hidden; }
+.post-nav .button { font-size: 14.5px; text-transform: none; padding: 7px 20px 5px 13px; margin-bottom: 0; }
+.post-nav .button .fa { position: relative; font-size: 19px; vertical-align: middle; top: -2px; }
+.post-nav-prev { float: left; }
+.post-nav-prev .fa { margin-right: 11px;  }
+.post-nav-next { float: right; }
+.post-nav-next .button { padding: 7px 12px 5px 17px; }
+.post-nav-next .fa { margin-left: 8px; }
+
+/* Attachement */
+.entry-caption {margin-top: 40px;}
+.entry-caption p { margin-bottom: 0px!important;}
+.full-attach {margin-top: 5px;}
+/*  Post Single  */
+/*	----------------------------------------------------------
+	Images
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+
+a img { border: none; }
+
+p img { margin-bottom: 0.5em; /* a small bottom margin prevents content floating under images */ }
+a img { display: block }
+
+/*	----------------------------------------------------------
+	Resize images to fit the main content area.
+		- Applies only to images uploaded via WordPress by targeting size-* classes.
+		- Other images will be left alone. Use "size-auto" class to apply to other images.
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+
+img.size-auto, img.size-full, img.size-large, img.size-medium, .attachment img, .widget-area img {
+	max-width: 100%; /* When images are too wide for containing element, force them to fit. */
+	height: auto; /* Override height to match resized width for correct aspect ratio. */
+}
+img.alignleft { margin-right: 1.5em; }
+img.alignright { margin-left: 1.5em; }
+.wp-caption { padding: .5em; text-align: center; width: 100%; }
+.wp-caption img { margin: .25em; }
+.alignnone { max-width: 98% !important; height: auto !important; }
+.wp-caption .wp-caption-text { margin: .5em; font-size: 12px; }
+.wp-smiley { margin: 0; }
+.bypostauthor { background: transparent; }
+
+
+/* ------------------------------------------------------------ *\
+	Galleries
+\* ------------------------------------------------------------ */
+
+.gallery { margin-bottom: 1.6em; }
+.gallery-item { display: inline-block; padding: 1.79104477%; text-align: center; vertical-align: top;  width: 100%; }
+.gallery-columns-2 .gallery-item { max-width: 50%; }
+.gallery-columns-3 .gallery-item { max-width: 33.33%; }
+.gallery-columns-4 .gallery-item { max-width: 25%; }
+.gallery-columns-5 .gallery-item { max-width: 20%; }
+.gallery-columns-6 .gallery-item { max-width: 16.66%; }
+.gallery-columns-7 .gallery-item { max-width: 14.28%; }
+.gallery-columns-8 .gallery-item { max-width: 12.5%; }
+.gallery-columns-9 .gallery-item { max-width: 11.11%; }
+.gallery-icon img { margin: 0 auto; }
+.gallery-caption { color: $grey; display: block; font-family: "Noto Sans", sans-serif; font-size: 12px; line-height: 1.5; padding: 0.5em 0;}
+.gallery-columns-6 .gallery-caption, .gallery-columns-7 .gallery-caption, .gallery-columns-8 .gallery-caption, .gallery-columns-9 .gallery-caption { display: none; }
+.gallery img { border: none!important; }
+
+/*	----------------------------------------------------------
+	Alignment
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+
+.alignleft { display: inline; float: left; margin-right: 1.5em; }
+.alignright { display: inline; float: right; margin-left: 1.5em; }
+.aligncenter { clear: both; display: block; margin-left: auto; margin-right: auto; }
+
+
+
+pre { background: #f4f4f4; font: 13px "Courier 10 Pitch",Courier,monospace; line-height: 1.5; margin-bottom: 1.5em; padding: 0.75em 1.5em; color: #666; margin: 20px 0; overflow: auto; white-space: pre; white-space: pre-wrap; word-wrap: break-word; } 
+
+.post-single { padding-bottom: 0; 
+
+	.entry p { margin-bottom: 25px; }
+}
+
+/*  Post Sticky  */
+
+.post.sticky:before { content: ''; position: absolute; right: 0; top: 0; border-width: 60px 0 0 60px; border-style: solid; border-color: $light-grey transparent; }
+
+/*  Post Format Video  */
+
+.format-video {
+	iframe { border: 0; }
+
+	.post-author { margin-top: 20px; }
+	.post-meta {margin-bottom: -30px; margin-top: -30px; }
+	.post-video p {margin: 40px 60px; color: $grey;}
+	.post-video { margin-bottom: 40px;}
+}
+
+/* Post Format image */
+.post-image { position: relative; }
+.post-image img {width: 100%; height: auto;}
+.format-image {
+	.post-meta {margin-bottom: -30px; margin-top: 20px; }
+	.post-image {margin-bottom: 40px;}
+	.wp-caption img { margin: 0px 0 20px 0; }
+	.wp-caption {width: 100%!important; height: auto; padding: 0px;}
+	.alignnone {width: 100%!important; height: auto; }
+
+}
+
+
+/* Post Format Status */
+.format-status {
+	.entry { margin: 0px; padding: 0px; }
+	.entry blockquote { font-family: 'Lora', serif; font-style: italic; border: 0; padding: 20px 40px; margin: 0; text-align: center; }
+	.entry blockquote p { font-size: 25px; color: $dark-grey; line-height: 1.3; margin: 0px; padding: 0px; }
+}
+
+/*  Post Format Audio  */
+
+.format-audio {
+	.post-audio p { color: #fff;}
+	.post-category { margin-bottom: 30px;  }
+	.post-content { padding: 50px 60px 24px; margin-bottom: 36px; background: #212121 url(assets/images/shapes-bg.png) no-repeat center center; }
+	.post-content {
+		-webkit-background-size: cover; 
+		        background-size: cover; 
+	}
+	.post-author { margin-top: 0px; margin-bottom: 34px; }
+}
+
+/*  Post Format Quote  */
+
+.format-quote { padding-bottom: 15px; 
+
+	.entry blockquote { font-family: 'Lora', serif; font-style: italic; border: 0; padding: 20px 60px 0 60px; margin: 0; text-align: center; }
+	
+	.entry blockquote cite { margin-top: 20px;}
+	.entry blockquote p { font-size: 25px; color: $dark-grey; line-height: 1.3; }
+	.entry blockquote + p { text-align: center; }
+	.entry blockquote + p:before { content: '- '; }
+	.entry blockquote + p:after { content: ' -'; }
+
+	&-black { background: $dark-grey url(assets/images/shapes2-bg.png) no-repeat center center; }
+	&-black {
+		-webkit-background-size: cover; 
+		        background-size: cover; 
+	}
+	&-black .entry blockquote p { color: $white; }
+}
+
+/*  Post Format Link  */
+.post-single.format-link .post-body {
+	margin-bottom: 60px;
+}
+.format-link {
+
+	.post-category { margin-bottom: 30px; }
+	.entry { background: $light-grey; margin: 0 0 20px; padding: 31px 60px 33px; text-align: center; }
+	.entry p { margin: 0; font-size: 14.5px; font-family: 'Lora', serif; font-weight: bold; }
+}
+
+/*  Post Format Chat  */
+.format-chat {
+	p:nth-child(2n+1) { background: #f3f3f3; padding: 5px;}
+}
+
+
+/*  Post Format Gallery  */
+.format-gallery .slide-image img { width: 100%; height: auto; }
+
+
+/*  Post Format Aside  */
+
+.format-aside { background: $dark-grey url(assets/images/shapes2-bg.png) no-repeat center center; padding: 50px 0 0 0px; 
+	
+	.entry { margin: 0; }
+	.entry blockquote { font-family: 'Raleway', serif; text-align: center; border: 0; padding: 0 0 50px 0; margin: 0; }
+	.entry blockquote p { color: $white; font-size: 25px; font-weight: bold; line-height: 1.5; margin: 0; }
+}
+
+@media only screen and (max-width: 641px) {
+	
+	.post { margin-bottom: 20px; padding: 15px 0; }
+	.post-title { font-size: 18px; }
+	.post .entry { padding: 0 20px; }
+	.post .entry p { font-size: 12px; }
+	.post .entry blockquote p { font-size: 18px; }
+
+	.post-foot { padding: 0 20px; }
+	.post-foot .socials,
+	.post-tags { float: none; margin-bottom: 15px; }
+
+	.post-author-box { padding: 20px; }
+	.post-author-box-image { width: 50px; height: 50px; margin-right: 10px; }
+
+	.post-nav { padding: 20px; }
+	.post-nav .button { display: block; margin-bottom: 10px; }
+	.post-nav-prev,
+	.post-nav-next { float: none; }
+}
+
+/* ------------------------------------------------------------ *\
+	Post Small
+\* ------------------------------------------------------------ */
+
+.post-small { padding: 15px 0; }
+.post-small + .post-small { margin-top: 0px; }
+.post-small-image { margin-bottom: 20px; }
+.post-small-image img { width: 100%; height: auto; }
+.post-small-title { font-size: 17px; font-weight: 600; }
+.post-small-title a { color: $dark-orange; }
+.post-small-title a:hover { color: $grey; }
+

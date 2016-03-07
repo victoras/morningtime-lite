@@ -1,0 +1,8 @@
+/* ------------------------------------------------------------ *\
+	Pagination
+\* ------------------------------------------------------------ */
+
+.pagination-centred { text-align: center; padding: 28px 0 10px; }
+.pagination-centred ul { display: inline-block; vertical-align: top; }
+.pagination-centred .pagination li a { color: $grey; }
+.pagination-centred .pagination li a:hover { background: transparent; color: $blue; }

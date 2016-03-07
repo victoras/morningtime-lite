@@ -1,0 +1,12 @@
+/* ------------------------------------------------------------ *\
+	Tag Cloud
+\* ------------------------------------------------------------ */
+
+.tagcloud { font-size: 0; }
+.tagcloud a { display: inline-block; background: $dark-orange; color: $white; font-size: 12.5px; padding: 6px 18px; margin: 0 5px 9px 0; }
+.tagcloud a:hover { background: $grey; }
+.tagcloud a {
+	-webkit-transition: all 0.2s ease-out; 
+	     -o-transition: all 0.2s ease-out; 
+	        transition: all 0.2s ease-out; 
+}

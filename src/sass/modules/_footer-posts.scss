@@ -1,0 +1,13 @@
+/* ------------------------------------------------------------ *\
+	List Posts
+\* ------------------------------------------------------------ */
+
+.list-posts { list-style: none outside none; padding: 0; margin: 0; }
+.list-posts li { margin-bottom: 25px; }
+.list-posts h5 { font-size: 14.5px; margin: 0 0 4px; font-weight: bold; }
+.list-posts h5 a { color: $grey; }
+.list-posts h5 a:hover { color: $blue; }
+.list-posts span { font-weight: 300; text-transform: uppercase; font-size: 12.5px; }
+.list-posts span:after { content: '\a0\a0\b7\a0'; font-size: 14px; font-weight: bold; }
+.list-posts div a { color: $dark-orange; }
+.list-posts div a:hover { color: $grey; }

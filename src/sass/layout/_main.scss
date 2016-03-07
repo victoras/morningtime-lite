@@ -1,0 +1,26 @@
+/* ------------------------------------------------------------ *\
+	Main
+\* ------------------------------------------------------------ */
+
+.main { padding: 76px 0 37px; }
+.main-inner { padding: 40px 0; }
+
+body { background: $lighter-grey; }
+
+.main-head-contents {
+	margin-bottom: 30px;
+}
+
+.main-head-contents h3:after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 1px;
+    margin: 15px 0 23px;
+    background: #d95204;
+    text-align: left;
+}
+
+@media only screen and (max-width: 641px) {
+	.main { padding: 25px 0; }
+}

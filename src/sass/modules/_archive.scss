@@ -1,0 +1,12 @@
+/* ------------------------------------------------------------ *\
+	Archive Template
+\* ------------------------------------------------------------ */
+
+.archive-date { text-align: right; color: $grey; font-size: 12px;  border-left: 1px dotted $grey; margin-left: 12px;}
+.archive-links { font-size: 13px; }
+.archive-year { color: $blue; padding-top: 30px;}
+
+
+@media only screen and (max-width: 641px) {
+	.archive-date {margin-left: 5px;}
+}

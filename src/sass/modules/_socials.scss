@@ -1,0 +1,14 @@
+/* ------------------------------------------------------------ *\
+	Socials
+\* ------------------------------------------------------------ */
+
+.socials ul { list-style: none outside none; overflow: hidden; }
+.socials li { float: left; padding: 10px 0 0; }
+.socials li + li { margin-left: 12px; }
+.socials a { color: $dark-orange; }
+.socials a:hover { color: $grey; }
+.socials a {
+	-webkit-transition: all 0.2s ease-out; 
+	     -o-transition: all 0.2s ease-out; 
+	        transition: all 0.2s ease-out; 
+}

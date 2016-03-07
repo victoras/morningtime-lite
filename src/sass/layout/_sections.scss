@@ -1,0 +1,11 @@
+/* ------------------------------------------------------------ *\
+	Sections
+\* ------------------------------------------------------------ */
+
+.section-comments { background: $white; padding: 53px 60px 35px; }
+
+@media only screen and (max-width: 641px) {
+	.section-comments {
+		padding: 20px; 
+	}
+}

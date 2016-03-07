@@ -1,0 +1,118 @@
+/* ------------------------------------------------------------ *\
+	Sidebar
+\* ------------------------------------------------------------ */
+
+.sidebar {
+
+	.widget { background: $white; color: $grey; padding: 33px 40px 34px; margin-bottom: 40px; }
+	.widget-title { font-size: 18px; color: $dark-grey; text-align: center; }
+	.widget-title:after { content: ''; display: block; width: 60px; height: 1px; margin: 15px auto 23px; background: $dark-orange; }
+	.widget p { font-size: 13.5px; line-height: 1.5; margin: 0; }
+
+	/*  Widget About  */
+
+	.widget_about {
+		.about-image { width: 115px; height: 115px; border-radius: 50%; overflow: hidden; margin: 9px auto 24px; }
+		.about-image img { width: 100%; height: auto; }
+	}
+
+	/*  Widget Text  */
+
+	.widget_text { padding-bottom: 38px; 
+		.widget-title:after { margin-bottom: 18px; }
+	}
+
+	
+	/*  Widget Posts  */
+
+	.widget_posts { padding-bottom: 48px; }
+
+	/*  Widget Tag Cloud  */
+
+	.widget_tag_cloud {
+		.widget-title:after { margin-bottom: 20px; }
+	}
+
+	@media only screen and (max-width: 641px) {
+		
+		& { margin-top: 50px; }
+		.widget { padding: 15px; margin-bottom: 20px; }
+		.widget-title { font-size: 16px; }
+
+	}
+
+}
+/*  Widget Search  */
+.widget_search { 
+	.search-form { position: relative; }
+	.search-form label span { display: none; }
+	.search-form input { height: 50px; padding-right: 30px; background: $lighter-grey; border-color: $light-grey; color: $grey; box-shadow: none; margin-bottom: 7px; }
+	.search-form input:focus { background: $white; }
+	.search-submit { display: none; }
+	.search-form:after { content: '\f002'; position: absolute; right: 15px; top: 15px; font-family: FontAwesome; font-weight: normal; font-style: normal; text-decoration: inherit; font-size: 14.5px; color: $grey; }
+}
+/*  Widget list  */
+.widget ul { list-style: none outside none; margin: 0; border-top: 1px dashed $grey; margin-right: 20px; margin-top: 30px; padding-bottom: 23px; }
+.widget li { border-bottom: 1px dashed $grey; }
+.widget ul a { display: inline-block; color: $grey; padding: 14px 18px 13px; font-size: 15px; font-weight: lighter;}
+.widget ul a:hover, .current-menu-item > a { color: $blue!important; }
+.widget ul a {
+	-webkit-transition: all 0.2s ease-out; 
+	     -o-transition: all 0.2s ease-out; 
+	        transition: all 0.2s ease-out; 
+}
+
+.widget .sub-menu {margin: 0px; border-bottom: 0px; padding: 0px;}
+.widget .sub-menu li:last-child {border-bottom: 0px;}
+
+/* Instagram */
+.photo-tiles { padding: 0px!important; margin: 0px!important; }
+.photo-tiles, .photo-tiles .photo-tile {border: none!important;}
+.photo-tiles .photo-tile a {margin: 0px!important; padding: 0px!important;}
+
+
+
+/*-----------------------------------------------------------
+	RSS Widget
+-----------------------------------------------------------*/
+
+.widget_rss .rsswidget img { display: inline-block; }
+
+
+
+/*-----------------------------------------------------------
+	Social Widget
+-----------------------------------------------------------*/
+
+.social-widget-margin {padding: 0px 0px; }
+
+.social-widget-margin a, .social-widget-margin a:visited { float: left; width: 50px; height: 48px; margin: 0 20px 20px 0px; text-align: center; text-decoration: none; line-height: 45px; color: #fff; padding-top: 5px; background: $grey; }
+
+.social-widget-margin a:hover { color: #fff; }
+
+.social-widget-margin .social-item-twitter a:hover, 
+.social-widget-margin .social-item-facebook a:hover,
+.social-widget-margin .social-item-rss a:hover,
+.social-widget-margin .social-item-gplus a:hover,
+.social-widget-margin .social-item-youtube a:hover,
+.social-widget-margin .social-item-linkedin a:hover,
+.social-widget-margin .social-item-instagram a:hover,
+.social-widget-margin .social-item-github a:hover,
+.social-widget-margin .social-item-pinterest a:hover,
+.social-widget-margin .social-item-vimeo a:hover,
+.social-widget-margin .social-item-lastfm a:hover,
+.social-widget-margin .social-item-soundcloud a:hover,
+.social-widget-margin .social-item-flickr a:hover { color: #fff!important; }
+.social-widget-margin .social-item-twitter a:hover { background: #00aced; }
+.social-widget-margin .social-item-facebook a:hover { background: #3b5998; }
+.social-widget-margin .social-item-rss a:hover { background: #ff9900; }
+.social-widget-margin .social-item-gplus a:hover { background: #d34836; }
+.social-widget-margin .social-item-youtube a:hover { background: #bb0000; }
+.social-widget-margin .social-item-linkedin a:hover { background: #007bb6; }
+.social-widget-margin .social-item-instagram a:hover { background: #517fa4; }
+.social-widget-margin .social-item-github a:hover { background: #ac5e54; }
+.social-widget-margin .social-item-pinterest a:hover { background: #cb2027; }
+.social-widget-margin .social-item-vimeo a:hover { background: #45bbff; }
+.social-widget-margin .social-item-lastfm a:hover { background: #D51007; }
+.social-widget-margin .social-item-soundcloud a:hover { background: #ff5800; }
+.social-widget-margin .social-item-flickr a:hover { background: #ff0084; }

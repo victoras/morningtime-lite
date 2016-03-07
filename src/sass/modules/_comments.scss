@@ -1,0 +1,66 @@
+/* ------------------------------------------------------------ *\
+	Comments & Reply
+\* ------------------------------------------------------------ */
+
+/*  Comments  */
+
+.comments h3 { font-size: 18px; color: $dark-grey; font-weight: bold; }
+.comments h3:after { content: ''; display: block; width: 60px; height: 1px; background: $dark-orange; margin: 12px 0 36px; }
+.comments .comment-notes, .comments .logged-in-as { color: $grey; font-size: 13px; }
+.commentlist { list-style: none outside none; margin: 0 0 40px 0; }
+
+.comment + .comment { margin-top: 44px; }
+.comment-image { float: left; width: 74px; border-radius: 50%; overflow: hidden; margin-right: 27px; }
+.comment-image img { width: 100%; height: auto; }
+.comment-content { overflow: hidden; }
+.comment-author { font-size: 14.5px; font-weight: 600; color: $dark-grey; font-weight: bold; margin: 2px 0 4px; }
+.comment-author a { color: $dark-grey; }
+.comment-author a:hover { color: $blue; }
+.comment-author small { font-size: 12px; color: $grey; }
+.comment-author small:before { content: '- '; color: $dark-grey; font-weight: bold; }
+.comment-reply { font-size: 11px; text-transform: uppercase; margin-top: 3px; }
+.comment-reply a { color: $blue; }
+.comment-reply a:hover { color: $grey; }
+.comment-text p { font-size: 14px; line-height: 1.8; color: $grey; }
+
+@media only screen and (max-width: 641px) {
+
+	.comment-image { float: none; margin: 0 auto 15px; }
+
+}
+
+/*  Respond  */
+
+.respond { padding: 0px 0 0; }
+.respond h3 { font-size: 16px; }
+.respond h3:after { margin-bottom: 20px; }
+.respond p { margin-bottom: 0; padding-bottom: 16px; }
+.respond .comment-form-comment,
+.respond .form-submit { padding-bottom: 6px; }
+
+.respond label { margin-bottom: 14px; display: inline-block;}
+.respond .required {float: left; margin-right: 5px; color: red;}
+.respond {
+	input[type="text"],
+	input[type="password"],
+	input[type="date"],
+	input[type="datetime"],
+	input[type="datetime-local"],
+	input[type="month"],
+	input[type="week"],
+	input[type="email"],
+	input[type="number"],
+	input[type="search"],
+	input[type="tel"],
+	input[type="time"],
+	input[type="url"],
+	input[type="color"],
+	textarea { border-color: #f0f0f0; height: 39px; margin-bottom: 29px; 
+		&:focus { border-color: $dark-orange; background: $white; }
+	}
+
+	textarea { height: 190px; }
+
+	.button { min-width: 120px; padding: 11px 27px; margin-bottom: 0; }
+}
+

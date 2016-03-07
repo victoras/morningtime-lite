@@ -1,0 +1,48 @@
+/*
+Theme Name: MorningTime Lite
+Author: WPlook Studio, Victor Tihai
+Author URI: https://wplook.com
+Theme URI: https://wplook.com/theme/morning-time-free-personal-blog-wordpress-theme/
+Description: Morning Time Lite is a modern and clean Premium WordPress theme designed for personal Blogging. The theme will help you to get a unique look for your blog as it has a lot of great features. Morning Time Lite is perfect to display daily articles in a beautiful way, the design is responsive meaning the theme looks just perfect for devices such as iPad, iPhone, and desktop, it has a great post format gallery which creates the possibility for you to display images from your galleries inside posts, awesome standard post format, audio post format, quote, aside and video post format.
+Version: 1.0.8
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, blue, gray, pink, purple, white, yellow, dark, light, two-columns, left-sidebar, fixed-layout, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+Text Domain: morning_time_lite
+*/
+
+/* TABLE OF CONTENT
+- [ Variables;
+- [ Settings;
+- [ Foundation;
+- [ Font Awesome;
+- [ Fonts;
+- [ Global;
+- [ Helpers;
+- [ Layout;
+--- [ Header;
+--- [ Sections;
+--- [ Main;
+--- [ Sidebar;
+--- [ Footer;
+- [ Modules;
+--- [ Buttons;
+--- [ Form Elements;
+--- [ Sliders;
+--- [ Socials;
+--- [ Post;
+--- [ Pagination;
+--- [ Photo Stream;
+--- [ Footer Posts;
+--- [ TagCloud;
+--- [ Comments;
+*/
+
+@import 'variables';
+@import 'settings';
+@import 'bower_components/foundation/scss/foundation';
+@import 'fonts';
+@import 'global';
+@import 'helpers';
+@import 'layout/_layout';
+@import 'modules/_modules';
