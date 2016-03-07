@@ -1,0 +1,15 @@
+{
+  "name": "morningtime-lite",
+  "version": "1.0.1",
+  "dependencies": {
+    "fastclick": "~1.0.6",
+    "jquery-placeholder": "~2.1.3",
+    "jquery.cookie": "jquery-cookie#~1.4.1",
+    "modernizr": "2.8.3",
+    "foundation": "~5.5.3",
+    "fullscreener": "~1.0.1",
+    "flexslider": "FlexSlider#~2.5.0",
+    "jquery.fitvids": "fitvids#~1.1.0",
+    "wow": "~1.1.2"
+  }
+}
