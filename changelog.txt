@@ -2,6 +2,7 @@
 * Version - 1.0.8
 - Added theme URI;
 - Updated Foundation to 5.5.3
+- Other minor fixes
 
 * Version - 1.0.7
 - Fixed the Social Widget;
