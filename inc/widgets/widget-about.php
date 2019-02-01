@@ -4,7 +4,7 @@
  * Description: Add About Me Widget
 */
 
-add_action('widgets_init', create_function('', 'return register_widget("wplook_about_me_widget");'));
+add_action('widgets_init', function(){return register_widget("wplook_about_me_widget");});
 class wplook_about_me_widget extends WP_Widget {
 
 

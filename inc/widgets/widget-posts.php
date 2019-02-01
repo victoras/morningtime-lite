@@ -4,7 +4,7 @@
  * Description: Add Posts to home page
 */
 
-add_action('widgets_init', create_function('', 'return register_widget("wplook_posts_widget");'));
+add_action('widgets_init', function(){return register_widget("wplook_posts_widget");});
 class wplook_posts_widget extends WP_Widget {
 
 

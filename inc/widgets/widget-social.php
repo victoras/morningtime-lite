@@ -4,13 +4,13 @@
  * Description: Social Widget
 */
 
-add_action('widgets_init', create_function('', 'return register_widget("WPlooksocial");'));
+add_action('widgets_init', function(){return register_widget("WPlooksocial");});
 class WPlooksocial extends WP_Widget {
 
 	/*-----------------------------------------------------------------------------------*/
 	/*	Widget actual processes
 	/*-----------------------------------------------------------------------------------*/
-	
+
 	public function __construct() {
 		parent::__construct(
 			'WPlooksocial',
@@ -18,11 +18,11 @@ class WPlooksocial extends WP_Widget {
 			array( 'description' => __( 'A widget for displaying Social Networking', 'morningtime-lite' ), )
 		);
 	}
-	
+
 	/*-----------------------------------------------------------------------------------*/
 	/*	Outputs the options form on admin
 	/*-----------------------------------------------------------------------------------*/
-	
+
 	public function form( $instance ) {
 	// outputs the options form on admin
 
@@ -32,40 +32,40 @@ class WPlooksocial extends WP_Widget {
 
 		else {
 			$title = __( '', 'morningtime-lite' );
-		} 
+		}
 
 		if ( $instance ) {
 			$twitter = esc_attr( $instance[ 'twitter' ] );
 		}
 		else {
 			$twitter = __( '', 'morningtime-lite' );
-		} 
+		}
 
 		if ( $instance ) {
 			$facebook = esc_attr( $instance[ 'facebook' ] );
 		}
 		else {
 			$facebook = __( '', 'morningtime-lite' );
-		} 
+		}
 		if ( $instance ) {
 			$rss = esc_attr( $instance[ 'rss' ] );
 		}
 		else {
 			$rss = __( '', 'morningtime-lite' );
-		} 
+		}
 		if ( $instance ) {
 			$googleplus = esc_attr( $instance[ 'googleplus' ] );
 		}
 		else {
 			$googleplus = __( '', 'morningtime-lite' );
-		} 
+		}
 		if ( $instance ) {
 			$youtube = esc_attr( $instance[ 'youtube' ] );
 		}
 		else {
 			$youtube = __( '', 'morningtime-lite' );
 		}
-		
+
 		if ( $instance ) {
 			$vimeo = esc_attr( $instance[ 'vimeo' ] );
 		}
@@ -77,13 +77,13 @@ class WPlooksocial extends WP_Widget {
 		}
 		else {
 			$soundcloud = __( '', 'morningtime-lite' );
-		} 
+		}
 		if ( $instance ) {
 			$lastfm = esc_attr( $instance[ 'lastfm' ] );
 		}
 		else {
 			$lastfm = __( '', 'morningtime-lite' );
-		} 
+		}
 		if ( $instance ) {
 			$pinterest = esc_attr( $instance[ 'pinterest' ] );
 		}
@@ -118,7 +118,7 @@ class WPlooksocial extends WP_Widget {
 			</label>
 			<input class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="text" value="<?php echo $title; ?>" />
 		</p>
-		
+
 		<!-- Twitter-->
 		<p>
 			<label for="<?php echo $this->get_field_id('twitter'); ?>">
@@ -129,7 +129,7 @@ class WPlooksocial extends WP_Widget {
 				<?php _e('Insert the full URL of your Twitter profile.', 'morningtime-lite'); ?>
 			</p>
 		</p>
-		
+
 		<!-- Facebook-->
 		<p>
 			<label for="<?php echo $this->get_field_id('facebook'); ?>">
@@ -140,7 +140,7 @@ class WPlooksocial extends WP_Widget {
 				<?php _e('Insert the full URL of your Facebook profile, page or group.', 'morningtime-lite'); ?>
 			</p>
 		</p>
-		
+
 		<!-- RSS-->
 		<p>
 			<label for="<?php echo $this->get_field_id('rss'); ?>">
@@ -151,7 +151,7 @@ class WPlooksocial extends WP_Widget {
 				<?php _e('Insert the Url of your RSS. You may include your RSS from Feedburner.', 'morningtime-lite'); ?>
 			</p>
 		</p>
-		
+
 		<!-- Google Plus-->
 		<p>
 			<label for="<?php echo $this->get_field_id('googleplus'); ?>">
@@ -162,7 +162,7 @@ class WPlooksocial extends WP_Widget {
 				<?php _e('Insert the full URL of your Google Plus profile', 'morningtime-lite'); ?>
 			</p>
 		</p>
-		
+
 		<!-- You Tube-->
 		<p>
 			<label for="<?php echo $this->get_field_id('youtube'); ?>">
@@ -173,7 +173,7 @@ class WPlooksocial extends WP_Widget {
 				<?php _e('Insert the full URL of your YouTube profile.', 'morningtime-lite'); ?>
 			</p>
 		</p>
-		
+
 		<!-- vimeo-->
 		<p>
 			<label for="<?php echo $this->get_field_id('vimeo'); ?>">
@@ -184,7 +184,7 @@ class WPlooksocial extends WP_Widget {
 				<?php _e('Insert the full URL of your vimeo profile.', 'morningtime-lite'); ?>
 			</p>
 		</p>
-		
+
 		<!-- lastfm-->
 		<p>
 			<label for="<?php echo $this->get_field_id('lastfm'); ?>">
@@ -206,7 +206,7 @@ class WPlooksocial extends WP_Widget {
 				<?php _e('Insert the full URL of your soundcloud profile.', 'morningtime-lite'); ?>
 			</p>
 		</p>
-		
+
 		<!--Pinterest-->
 		<p>
 			<label for="<?php echo $this->get_field_id('pinterest'); ?>">
@@ -228,7 +228,7 @@ class WPlooksocial extends WP_Widget {
 				<?php _e('Insert the full URL of your Flickr profile.', 'morningtime-lite'); ?>
 			</p>
 		</p>
-		
+
 		<!--Linkedin-->
 		<p>
 			<label for="<?php echo $this->get_field_id('linked'); ?>">
@@ -251,9 +251,9 @@ class WPlooksocial extends WP_Widget {
 			</p>
 		</p>
 
-<?php 
+<?php
 
-	} 
+	}
 
 function update($new_instance, $old_instance) {
 		// processes widget options to be saved
@@ -295,7 +295,7 @@ function widget($args, $instance) {
 <?php if ($title=="") $title = "Social Widget"; ?>
 <?php echo $before_widget; ?>
 <?php if ( $title )
-		echo $before_title . $title . $after_title; 
+		echo $before_title . $title . $after_title;
 		echo "<div class='social-widget-body'><div class='social-widget-margin'>";
 			// Twitter
 			if ($twitter != "") {
@@ -304,7 +304,7 @@ function widget($args, $instance) {
 			// Facebook
 			if ($facebook != "") {
 				echo "<div class='social-item-facebook'>"."<a href='$facebook' target='_blank'><i class='fa fa-facebook'></i></a>" ."</div>";
-			}		
+			}
 			// RSS
 			if ($rss != "") {
 				echo "<div class='social-item-rss'>"."<a href='$rss' target='_blank'><i class='fa fa-rss'></i></a>" ."</div>";
