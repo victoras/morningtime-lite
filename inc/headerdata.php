@@ -18,8 +18,8 @@ if ( ! function_exists( 'wplook_css_include' ) ) {
 		/*-----------------------------------------------------------
 			Loads our main stylesheet.
 		-----------------------------------------------------------*/
-		wp_enqueue_style( 'morning-style', get_stylesheet_uri(), array(), '2015-0404' );
-		wp_enqueue_style( 'morning-fonts', '//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic%7CRaleway:400,300,200,100,900,800,700,600,500', array('morning-style'), '2015-09-07', 'all' );
+		wp_enqueue_style( 'morning-style', get_stylesheet_uri(), array(), '2019-01-01' );
+		wp_enqueue_style( 'morning-fonts', '//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic%7CRaleway:400,300,200,100,900,800,700,600,500', array('morning-style'), '2019-01-01', 'all' );
 
 	}
 	add_action( 'wp_enqueue_scripts', 'wplook_css_include' );
@@ -38,11 +38,6 @@ if ( ! function_exists( 'wplook_scripts_include' ) ) {
 		-----------------------------------------------------------*/
 
 		wp_enqueue_script('jquery');
-
-
-		/*-----------------------------------------------------------
-			Vendors
-		-----------------------------------------------------------*/
 
 		/*-----------------------------------------------------------
 			Fastclick
@@ -88,7 +83,7 @@ if ( ! function_exists( 'wplook_scripts_include' ) ) {
 			fitvids
 		-----------------------------------------------------------*/
 		wp_enqueue_script( 'fitvids', get_template_directory_uri().'/assets/javascripts/vendors/jquery.fitvids.js', '', '', 'footer' );
-		
+
 		/*-----------------------------------------------------------
 			wow
 		-----------------------------------------------------------*/
