@@ -13,19 +13,19 @@
 .project-tile:hover .project-tile-overlay { bottom: 50%; margin-bottom: -20px; }
 .project-tile:hover .project-tile-overlay h4 { color: $white; }
 .project-tile:hover .project-tile-overlay {
-	-webkit-transform: translateY(50%); 
-	    -ms-transform: translateY(50%); 
-	     -o-transform: translateY(50%); 
-	        transform: translateY(50%); 
+	-webkit-transform: translateY(50%);
+	    -ms-transform: translateY(50%);
+	     -o-transform: translateY(50%);
+	        transform: translateY(50%);
 }
 .project-tile-overlay h4 { color: $white; font-size: 14px; font-weight: bold; text-transform: uppercase; margin: 0 0 6px; }
 .project-tile-overlay p { color: $grey; font-size: 13px; text-transform: uppercase; }
 
 .project-tile-image:after,
 .project-tile-overlay {
-	-webkit-transition: all 0.2s ease-out; 
-	     -o-transition: all 0.2s ease-out; 
-	        transition: all 0.2s ease-out; 
+	-webkit-transition: all 0.2s ease-out;
+	     -o-transition: all 0.2s ease-out;
+	        transition: all 0.2s ease-out;
 }
 
 .section-project .section-body { margin-bottom: 0px; }

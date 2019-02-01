@@ -55,7 +55,7 @@
 	input[type="time"],
 	input[type="url"],
 	input[type="color"],
-	textarea { border-color: #f0f0f0; height: 39px; margin-bottom: 29px; 
+	textarea { border-color: #f0f0f0; height: 39px; margin-bottom: 29px;
 		&:focus { border-color: $dark-orange; background: $white; }
 	}
 
@@ -63,4 +63,3 @@
 
 	.button { min-width: 120px; padding: 11px 27px; margin-bottom: 0; }
 }
-

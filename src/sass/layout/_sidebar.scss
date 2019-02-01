@@ -18,11 +18,11 @@
 
 	/*  Widget Text  */
 
-	.widget_text { padding-bottom: 38px; 
+	.widget_text { padding-bottom: 38px;
 		.widget-title:after { margin-bottom: 18px; }
 	}
 
-	
+
 	/*  Widget Posts  */
 
 	.widget_posts { padding-bottom: 48px; }
@@ -34,7 +34,7 @@
 	}
 
 	@media only screen and (max-width: 641px) {
-		
+
 		& { margin-top: 50px; }
 		.widget { padding: 15px; margin-bottom: 20px; }
 		.widget-title { font-size: 16px; }
@@ -43,7 +43,7 @@
 
 }
 /*  Widget Search  */
-.widget_search { 
+.widget_search {
 	.search-form { position: relative; }
 	.search-form label span { display: none; }
 	.search-form input { height: 50px; padding-right: 30px; background: $lighter-grey; border-color: $light-grey; color: $grey; box-shadow: none; margin-bottom: 7px; }
@@ -57,9 +57,9 @@
 .widget ul a { display: inline-block; color: $grey; padding: 14px 18px 13px; font-size: 15px; font-weight: lighter;}
 .widget ul a:hover, .current-menu-item > a { color: $blue!important; }
 .widget ul a {
-	-webkit-transition: all 0.2s ease-out; 
-	     -o-transition: all 0.2s ease-out; 
-	        transition: all 0.2s ease-out; 
+	-webkit-transition: all 0.2s ease-out;
+	     -o-transition: all 0.2s ease-out;
+	        transition: all 0.2s ease-out;
 }
 
 .widget .sub-menu {margin: 0px; border-bottom: 0px; padding: 0px;}
@@ -90,7 +90,7 @@
 
 .social-widget-margin a:hover { color: #fff; }
 
-.social-widget-margin .social-item-twitter a:hover, 
+.social-widget-margin .social-item-twitter a:hover,
 .social-widget-margin .social-item-facebook a:hover,
 .social-widget-margin .social-item-rss a:hover,
 .social-widget-margin .social-item-gplus a:hover,

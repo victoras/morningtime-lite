@@ -1,4 +1,7 @@
-== Frist release ==
+== Changelog ==
+* Version - 1.0.9
+- Fixed PHP 7.2 create_function error
+
 * Version - 1.0.8
 - Added theme URI;
 - Updated Foundation to 5.5.3

@@ -8,9 +8,9 @@
 .button:hover,
 .button:focus { background: $dark-orange; border-color: transparent; outline: none; }
 .button {
-	-webkit-transition: all 0.2s ease-out; 
-	     -o-transition: all 0.2s ease-out; 
-	        transition: all 0.2s ease-out; 
+	-webkit-transition: all 0.2s ease-out;
+	     -o-transition: all 0.2s ease-out;
+	        transition: all 0.2s ease-out;
 }
 
 /*  Button Tiny  */
@@ -31,4 +31,3 @@
 
 .button.circle { width: 46px; height: 46px; line-height: 46px; padding: 0; border-radius: 50%; background: $light-grey; border: 0; text-align: center; color: $grey; font-size: 19px; }
 .button.circle:hover { background: $white; }
-
