@@ -180,8 +180,9 @@ if ( ! function_exists( 'morning_time_lite_header_style' ) ) {
 	function morning_time_lite_header_style() {
 
 		// If no custom options for text are set, let's bail
-		// get_header_textcolor() options: HEADER_TEXTCOLOR is default, hide text (returns 'blank') or any hex value
-		if ( HEADER_TEXTCOLOR == get_header_textcolor() )
+		// get_header_textcolor() options: $header_text_color is default, hide text (returns 'blank') or any hex value
+
+		if ( $header_text_color == get_header_textcolor() )
 			return;
 		// If we get this far, we have custom styles. Let's do this.
 		?>
@@ -213,7 +214,7 @@ if ( ! function_exists( 'morning_time_lite_admin_header_style' ) ) {
 			#site-description { font-size: 14px; line-height: 23px; padding: 0 0 3em; }
 
 			<?php // If the user has set a custom color for the text use that
-			if ( get_header_textcolor() != HEADER_TEXTCOLOR ) { ?>
+			if ( get_header_textcolor() != $header_text_color ) { ?>
 				#site-title a, #site-description { color: #<?php echo get_header_textcolor(); ?>; }
 			<?php } ?>
 			#headimg img { max-width: 1000px; height: auto; width: 100%; }
@@ -236,10 +237,10 @@ if ( ! function_exists( 'morning_time_lite_admin_header_image' ) ) {
 	function morning_time_lite_admin_header_image() { ?>
 		<div id="headimg">
 			<?php
-			if ( 'blank' == get_theme_mod( 'header_textcolor', HEADER_TEXTCOLOR ) || '' == get_theme_mod( 'header_textcolor', HEADER_TEXTCOLOR ) )
+			if ( 'blank' == get_theme_mod( 'header_textcolor', $header_text_color ) || '' == get_theme_mod( 'header_textcolor', $header_text_color ) )
 				$style = ' style="display:none;"';
 			else
-				$style = ' style="color:#' . get_theme_mod( 'header_textcolor', HEADER_TEXTCOLOR ) . ';"';
+				$style = ' style="color:#' . get_theme_mod( 'header_textcolor', $header_text_color ) . ';"';
 			?>
 			<h1><a id="name"<?php echo esc_html($style); ?> onclick="return false;" href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
 			<div id="desc"<?php echo esc_html($style); ?>><?php bloginfo( 'description' ); ?></div>
