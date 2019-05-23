@@ -3,7 +3,7 @@
 Morning Time Lite / Personal WordPress Theme
 
 Theme Name: Morning Time Lite
-Theme URI: https://wplook.com
+Theme URI: https://wplook.com/product/themes/personal/personal-blog-wordpress-theme/
 Author: WPlook Studio, Victor Tihai
 Author URI: https://wplook.com
 Description: Morning Time Lite is a modern and clean Premium WordPress theme designed for personal Blogging. The theme will help you to get a unique look for your blog as it has a lot of great features. Morning Time Lite is perfect to display daily articles in a beautiful way, the design is responsive meaning the theme looks just perfect for devices such as iPad, iPhone, and desktop, it has a great post format gallery which creates the possibility for you to display images from your galleries inside posts, awesome standard post format, audio post format, quote, aside and video post format.
@@ -83,4 +83,3 @@ Activate the theme and go to Appearance > Customize.
 
 Archive Settings
 Add a new page Archive and from page attribute select the archive template.
-
