@@ -162,7 +162,7 @@ function wplook_customize_register( $wp_customize ) {
 		More Info
 	============================================================*/
 	$wp_customize->add_section( 'wplook_more_settings',  array(
-			'title'      => __( 'More', 'morningtime-lite' ),
+			'title'      => __( '.:| More |:.', 'morningtime-lite' ),
 			'priority'   => 999,
 		)
 	);

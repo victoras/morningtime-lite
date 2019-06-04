@@ -62,15 +62,15 @@ if ( ! function_exists( 'morning_time_lite_get_attachment' ) ) {
 /*-----------------------------------------------------------------------------------*/
 
 class morning_time_lite_Page_Navigation_Walker extends Walker_Nav_Menu {
-    function display_element( $element, &$children_elements, $max_depth, $depth=0, $args, &$output ) {
-        $id_field = $this->db_fields['id'];
-        if ( !empty( $children_elements[ $element->$id_field ] ) ) {
-            $element->classes[] = 'has-dropdown';
-        }
-        Walker_Nav_Menu::display_element( $element, $children_elements, $max_depth, $depth, $args, $output );
-    }
+	function display_element( $element, &$children_elements, $max_depth, $depth=0, $args, &$output ) {
+		$id_field = $this->db_fields['id'];
+		if ( !empty( $children_elements[ $element->$id_field ] ) ) {
+			$element->classes[] = 'has-dropdown';
+		}
+		Walker_Nav_Menu::display_element( $element, $children_elements, $max_depth, $depth, $args, $output );
+	}
 
-    function start_lvl( &$output, $depth = 0, $args = array() ) {
+	function start_lvl( &$output, $depth = 0, $args = array() ) {
 		$indent = str_repeat("\t", $depth);
 		$output .= "\n$indent<ul class=\"dropdown\">\n";
 	}
@@ -145,8 +145,8 @@ if ( ! function_exists( 'morning_time_lite_content_navigation' ) ) {
 if ( ! function_exists( 'morning_time_lite_post_link_attributes' ) ) {
 
 	function morning_time_lite_post_link_attributes($output) {
-	    $button_class = 'class="button tiny grey"';
-	    return str_replace('<a href=', '<a '.$button_class.' href=', $output);
+		$button_class = 'class="button tiny grey"';
+		return str_replace('<a href=', '<a '.$button_class.' href=', $output);
 	}
 	add_filter('next_post_link', 'morning_time_lite_post_link_attributes');
 	add_filter('previous_post_link', 'morning_time_lite_post_link_attributes');
@@ -156,8 +156,8 @@ if ( ! function_exists( 'morning_time_lite_post_link_attributes' ) ) {
 if ( ! function_exists( 'morning_time_lite_image_link_attributes' ) ) {
 
 	function morning_time_lite_image_link_attributes($output) {
-	    $button_class = 'class="button tiny grey"';
-	    return str_replace('<a href=', '<a '.$button_class.' href=', $output);
+		$button_class = 'class="button tiny grey"';
+		return str_replace('<a href=', '<a '.$button_class.' href=', $output);
 	}
 	add_filter('next_image_link', 'morning_time_lite_image_link_attributes');
 	add_filter('previous_image_link', 'morning_time_lite_image_link_attributes');
@@ -173,7 +173,7 @@ if ( ! function_exists( 'morning_time_lite_custom_oembed_filter' ) ) {
 
 	function morning_time_lite_custom_oembed_filter($html, $url, $attr, $post_ID) {
 		$return = '<div class="post-video">'.$html.'</div>';
-	    return $return;
+		return $return;
 	}
 }
 
@@ -327,6 +327,25 @@ if ( ! function_exists( 'morning_time_lite_content_navigation' ) ) {
 
 
 /*-----------------------------------------------------------------------------------*/
+/*	Pro Version
+/*-----------------------------------------------------------------------------------*/
+
+function morningtime_buy_menu() {
+	global $wp_admin_bar;
+	if ( !is_super_admin() || !is_admin_bar_showing() )
+		return;
+
+	$wp_admin_bar->add_menu( array(
+	'id' => 'custom_buymenu',
+	'title' => __( 'MorningTime - Full Version', 'morningtime-lite' ),
+	'href' => 'https://wplook.com/product/themes/personal/personal-blog-wordpress-theme/?utm_source=Buy-Full&utm_medium=link&utm_campaign=MorningTime-Lite',
+	'meta' => array('title' => 'Learn more about MorningTime', 'class' => 'wplookbuy') ) );
+
+}
+add_action('admin_bar_menu', 'morningtime_buy_menu', '1000');
+
+
+/*-----------------------------------------------------------------------------------*/
 /*	Doctitle
 /*-----------------------------------------------------------------------------------*/
 
@@ -335,8 +354,8 @@ if ( ! function_exists( 'morning_time_lite_doctitle' ) ) {
 	function morning_time_lite_doctitle() {
 
 		if ( is_search() ) {
-		  $content = __('Search Results for:', 'morningtime-lite');
-		  $content .= ' ' . esc_html(stripslashes(get_search_query()));
+			$content = __('Search Results for:', 'morningtime-lite');
+			$content .= ' ' . esc_html(stripslashes(get_search_query()));
 		}
 
 		elseif ( is_day() ) {
