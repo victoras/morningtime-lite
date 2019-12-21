@@ -1,4 +1,18 @@
 == Changelog ==
+* Version - 1.0.12
+- Updated to Font Awesome 5+
+- Fixed Slider
+- Optimized CSS file
+- Beautify the CSS
+- Updated Foundation Zurb
+- other minor changes
+
+* Version - 1.0.11
+- Fixed a customizer issue
+
+* Version - 1.0.10
+- No follow to footer credit
+
 * Version - 1.0.9
 - Fixed PHP 7.2 create_function error
 
