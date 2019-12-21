@@ -18,7 +18,7 @@ if ( ! function_exists( 'wplook_css_include' ) ) {
 		/*-----------------------------------------------------------
 			Loads our main stylesheet.
 		-----------------------------------------------------------*/
-		wp_enqueue_style( 'morning-style', get_stylesheet_uri(), array(), '2019-01-01' );
+		wp_enqueue_style( 'morning-style', get_stylesheet_uri(), array(),wp_get_theme()->get('Version') );
 		wp_enqueue_style( 'morning-fonts', '//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic%7CRaleway:400,300,200,100,900,800,700,600,500', array('morning-style'), '2019-01-01', 'all' );
 
 	}
@@ -42,52 +42,52 @@ if ( ! function_exists( 'wplook_scripts_include' ) ) {
 		/*-----------------------------------------------------------
 			Fastclick
 		-----------------------------------------------------------*/
-		wp_enqueue_script( 'Fastclick', get_template_directory_uri().'/assets/javascripts/vendors/fastclick.js', '', '', 'footer' );
+		wp_enqueue_script( 'Fastclick', get_template_directory_uri().'/assets/javascripts/fastclick.js', '', '', 'footer' );
 
 		/*-----------------------------------------------------------
 			Placeholder
 		-----------------------------------------------------------*/
-		wp_enqueue_script( 'placeholder', get_template_directory_uri().'/assets/javascripts/vendors/jquery.placeholder.js', '', '', 'footer' );
+		wp_enqueue_script( 'placeholder', get_template_directory_uri().'/assets/javascripts/jquery.placeholder.js', '', '', 'footer' );
 
 
 		/*-----------------------------------------------------------
 			Cookie
 		-----------------------------------------------------------*/
-		wp_enqueue_script( 'cookie', get_template_directory_uri().'/assets/javascripts/vendors/jquery.cookie.js', '', '', 'footer' );
+		wp_enqueue_script( 'cookie', get_template_directory_uri().'/assets/javascripts/jquery.cookie.min.js', '', '', 'footer' );
 
 
 		/*-----------------------------------------------------------
 			Modernizr
 		-----------------------------------------------------------*/
-		wp_enqueue_script( 'modernizr', get_template_directory_uri().'/assets/javascripts/vendors/modernizr.js', '', '', 'footer' );
+		wp_enqueue_script( 'modernizr', get_template_directory_uri().'/assets/javascripts/modernizr.min.js', '', '', 'footer' );
 
 
 		/*-----------------------------------------------------------
 			Foundation
 		-----------------------------------------------------------*/
-		wp_enqueue_script( 'foundation', get_template_directory_uri().'/assets/javascripts/vendors/foundation.min.js', '', '', 'footer' );
+		wp_enqueue_script( 'foundation', get_template_directory_uri().'/assets/javascripts/foundation.min.js', '', '', 'footer' );
 
 
 		/*-----------------------------------------------------------
 			Fullscreen
 		-----------------------------------------------------------*/
-		wp_enqueue_script( 'Fullscreen', get_template_directory_uri().'/assets/javascripts/vendors/jquery.fullscreener.min.js', '', '', 'footer' );
+		wp_enqueue_script( 'Fullscreen', get_template_directory_uri().'/assets/javascripts/jquery.fullscreener.min.js', '', '', 'footer' );
 
 
 		/*-----------------------------------------------------------
 			flexslider
 		-----------------------------------------------------------*/
-		wp_enqueue_script( 'flexslider', get_template_directory_uri().'/assets/javascripts/vendors/jquery.flexslider-min.js', '', '', 'footer' );
+		wp_enqueue_script( 'flexslider', get_template_directory_uri().'/assets/javascripts/jquery.flexslider.min.js', '', '', 'footer' );
 
 		/*-----------------------------------------------------------
 			fitvids
 		-----------------------------------------------------------*/
-		wp_enqueue_script( 'fitvids', get_template_directory_uri().'/assets/javascripts/vendors/jquery.fitvids.js', '', '', 'footer' );
+		wp_enqueue_script( 'fitvids', get_template_directory_uri().'/assets/javascripts/jquery.fitvids.min.js', '', '', 'footer' );
 
 		/*-----------------------------------------------------------
 			wow
 		-----------------------------------------------------------*/
-		wp_enqueue_script( 'wow', get_template_directory_uri().'/assets/javascripts/vendors/wow.min.js', '', '', 'footer' );
+		wp_enqueue_script( 'wow', get_template_directory_uri().'/assets/javascripts/wow.min.js', '', '', 'footer' );
 
 
 		/*-----------------------------------------------------------
@@ -101,8 +101,8 @@ if ( ! function_exists( 'wplook_scripts_include' ) ) {
 
 
 		/*-----------------------------------------------------------
-	    	Base custom scripts
-	    -----------------------------------------------------------*/
+			Base custom scripts
+		-----------------------------------------------------------*/
 		wp_enqueue_script( 'base', get_template_directory_uri().'/assets/javascripts/app.js', '', '', 'footer' );
 
 	}

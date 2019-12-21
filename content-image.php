@@ -51,7 +51,7 @@
 			<div class="post-tags">
 				<?php // Tags ?>
 				<?php if ( get_the_tag_list( '', ', ' ) ) { ?>
-					<div class="tags"><i class="fa fa-tags"></i> <?php echo get_the_tag_list('',', ',''); ?></div>
+					<div class="tags"><i class="fas fa-tags"></i> <?php echo get_the_tag_list('',', ',''); ?></div>
 				<?php } ?>
 			</div><!-- /.post-tags -->
 

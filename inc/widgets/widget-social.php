@@ -299,51 +299,51 @@ function widget($args, $instance) {
 		echo "<div class='social-widget-body'><div class='social-widget-margin'>";
 			// Twitter
 			if ($twitter != "") {
-				echo "<div class='social-item-twitter'>"."<a href='$twitter' target='_blank'><i class='fa fa-twitter'></i></a>"."</div>";
+				echo "<div class='social-item-twitter'>"."<a href='$twitter' target='_blank'><i class='fab fa-twitter'></i></a>"."</div>";
 			}
 			// Facebook
 			if ($facebook != "") {
-				echo "<div class='social-item-facebook'>"."<a href='$facebook' target='_blank'><i class='fa fa-facebook'></i></a>" ."</div>";
+				echo "<div class='social-item-facebook'>"."<a href='$facebook' target='_blank'><i class='fab fa-facebook'></i></a>" ."</div>";
 			}
 			// RSS
 			if ($rss != "") {
-				echo "<div class='social-item-rss'>"."<a href='$rss' target='_blank'><i class='fa fa-rss'></i></a>" ."</div>";
+				echo "<div class='social-item-rss'>"."<a href='$rss' target='_blank'><i class='fab fa-rss'></i></a>" ."</div>";
 			}
 			// Google Plus
 			if ($googleplus != "") {
-				echo "<div class='social-item-gplus'>"."<a href='$googleplus' target='_blank'><i class='fa fa-google-plus'></i></a>" ."</div>";
+				echo "<div class='social-item-gplus'>"."<a href='$googleplus' target='_blank'><i class='fab fa-google-plus-g'></i></a>" ."</div>";
 			}
 			// You Tube
 			if ($youtube != "") {
-				echo "<div class='social-item-youtube'>"."<a href='$youtube' target='_blank'><i class='fa fa-youtube'></i></a>" ."</div>";
+				echo "<div class='social-item-youtube'>"."<a href='$youtube' target='_blank'><i class='fab fa-youtube'></i></a>" ."</div>";
 			}
 			// vimeo
 			if ($vimeo != "") {
-				echo "<div class='social-item-vimeo'>"."<a href='$vimeo' target='_blank'><i class='fa fa-vimeo-square'></i></a>" ."</div>";
+				echo "<div class='social-item-vimeo'>"."<a href='$vimeo' target='_blank'><i class='fab fa-vimeo-square'></i></a>" ."</div>";
 			}
 			// lastfm
 			if ($lastfm != "") {
-				echo "<div class='social-item-lastfm'>"."<a href='$lastfm' target='_blank'><i class='fa fa-lastfm'></i></a>" ."</div>";
+				echo "<div class='social-item-lastfm'>"."<a href='$lastfm' target='_blank'><i class='fab fa-lastfm'></i></a>" ."</div>";
 			}
 			// soundcloud
 			if ($soundcloud != "") {
-				echo "<div class='social-item-soundcloud'>"."<a href='$soundcloud' target='_blank'><i class='fa fa-soundcloud'></i></a>" ."</div>";
+				echo "<div class='social-item-soundcloud'>"."<a href='$soundcloud' target='_blank'><i class='fab fa-soundcloud'></i></a>" ."</div>";
 			}
 			// Pinterest
 			if ($pinterest != "") {
-				echo "<div class='social-item-pinterest'>"."<a href='$pinterest' target='_blank'><i class='fa fa-pinterest'></i></a>" ."</div>";
+				echo "<div class='social-item-pinterest'>"."<a href='$pinterest' target='_blank'><i class='fab fa-pinterest'></i></a>" ."</div>";
 			}
 			// Flickr
 			if ($flickr != "") {
-				echo "<div class='social-item-flickr'>"."<a href='$flickr' target='_blank'><i class='fa fa-flickr'></i></a>" ."</div>";
+				echo "<div class='social-item-flickr'>"."<a href='$flickr' target='_blank'><i class='fab fa-flickr'></i></a>" ."</div>";
 			}
 			// Linkedin
 			if ($linked != "") {
-				echo "<div class='social-item-linkedin'>"."<a href='$linked' target='_blank'><i class='fa fa-linkedin'></i></a>" ."</div>";
+				echo "<div class='social-item-linkedin'>"."<a href='$linked' target='_blank'><i class='fab fa-linkedin'></i></a>" ."</div>";
 			}
 			// Instagram
 			if ($instagram != "") {
-				echo "<div class='social-item-instagram'>"."<a href='$instagram' target='_blank'><i class='fa fa-instagram'></i></a>" ."</div>";
+				echo "<div class='social-item-instagram'>"."<a href='$instagram' target='_blank'><i class='fab fa-instagram'></i></a>" ."</div>";
 			}
 		echo "<div class='clearfix'></div></div></div>";
 	 	echo $after_widget; ?>

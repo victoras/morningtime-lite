@@ -49,7 +49,7 @@
 	.search-form input { height: 50px; padding-right: 30px; background: $lighter-grey; border-color: $light-grey; color: $grey; box-shadow: none; margin-bottom: 7px; }
 	.search-form input:focus { background: $white; }
 	.search-submit { display: none; }
-	.search-form:after { content: '\f002'; position: absolute; right: 15px; top: 15px; font-family: FontAwesome; font-weight: normal; font-style: normal; text-decoration: inherit; font-size: 14.5px; color: $grey; }
+	.search-form:after { content: '\f002'; position: absolute; right: 15px; top: 15px; font-family: $fa; font-weight: normal; font-style: normal; text-decoration: inherit; font-size: 14.5px; color: $grey; }
 }
 /*  Widget list  */
 .widget ul { list-style: none outside none; margin: 0; border-top: 1px dashed $grey; margin-right: 20px; margin-top: 30px; padding-bottom: 23px; }

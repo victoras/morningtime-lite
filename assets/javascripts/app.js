@@ -8,7 +8,7 @@ jQuery(document).ready(function() {
 	doc.foundation();
 
 	// Navigation Submenu Icons
-	jQuery('.top-bar-section .has-dropdown').append('<i class="fa fa-angle-right"></i>')
+	jQuery('.top-bar-section .has-dropdown').append('<i class="fas fa-angle-right"></i>')
 
 	// Fullscreener
 	jQuery('.fullscreener img').fullscreener();
@@ -21,8 +21,8 @@ jQuery(document).ready(function() {
 	});
 	jQuery('.slider-home').flexslider({
 		animation: 'slide',
-		prevText: '<i class="fa fa-angle-left"></i>',
-		nextText: '<i class="fa fa-angle-right"></i>',
+		prevText: '<i class="fas fa-angle-left"></i>',
+		nextText: '<i class="fas fa-angle-right"></i>',
 		pauseOnAction: true,
 		pauseOnHover: true,
 		//smoothHeight: true,
@@ -39,8 +39,8 @@ jQuery(document).ready(function() {
 	jQuery('.post-slider').flexslider({
 		animation: 'slide',
 		smoothHeight: true,
-		nextText: '<span class="button tiny grey"><i class="fa fa-angle-right"></i></span>',
-		prevText: '<span class="button tiny grey"><i class="fa fa-angle-left"></i></span>',
+		nextText: '<span class="button tiny grey"><i class="fas fa-angle-right"></i></span>',
+		prevText: '<span class="button tiny grey"><i class="fas fa-angle-left"></i></span>',
 		start: function(slider) {
 			jQuery('.post-slider').removeClass('loading');
 		}

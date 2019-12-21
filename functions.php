@@ -42,7 +42,7 @@ if ( ! function_exists( 'morning_time_lite_setup' ) ) {
 			Theme style for the visual editor
 		-----------------------------------------------------------*/
 
-		add_editor_style( 'assets/css/editor-style.css' );
+		add_editor_style( 'assets/styles/custom-editor-style.css' );
 
 		/*-----------------------------------------------------------
 			Add default posts and comments RSS feed links to head
@@ -159,7 +159,7 @@ $morning_time_lite_custom_header = array(
 	'height'                 => '800',
 	'flex-height'            => true,
 	'flex-width'             => true,
-	'default-text-color'     => 'ffffff',
+	'default-text-color'     => '000000',
 	'header-text'            => true,
 	'uploads'                => true,
 	'wp-head-callback'		=> 'morning_time_lite_header_style',

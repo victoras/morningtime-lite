@@ -126,11 +126,11 @@ if ( ! function_exists( 'morning_time_lite_content_navigation' ) ) {
 	function morning_time_lite_content_navigation( $nav_id ) { ?>
 			<div class="post-nav">
 				<div class="post-nav-prev">
-					<?php previous_post_link( '%link', __( '<i class="fa fa-angle-left"></i>  Previous post', 'morningtime-lite' ) ); ?>
+					<?php previous_post_link( '%link', __( '<i class="fas fa-angle-left"></i>  Previous post', 'morningtime-lite' ) ); ?>
 				</div><!-- /.post-nav-prev -->
 
 				<div class="post-nav-next">
-					<?php next_post_link( '%link', __( 'Next post <i class="fa fa-angle-right"></i>', 'morningtime-lite' ) ); ?>
+					<?php next_post_link( '%link', __( 'Next post <i class="fas fa-angle-right"></i>', 'morningtime-lite' ) ); ?>
 				</div><!-- /.post-nav-next -->
 			</div><!-- /.post-nav -->
 		<?php

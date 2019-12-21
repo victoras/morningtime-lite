@@ -34,7 +34,9 @@
 
 .post-foot { overflow: hidden; margin: -11px 0 50px; padding: 0 60px; }
 .post-tags { float: left; font-size: 13.5px; color: $dark-grey; }
-.post-tags .fa { margin-right: 10px; font-size: 14px; color: $grey; }
+.post-tags {
+	.fa, .fab, .fas, .far { margin-right: 10px; font-size: 14px; color: $grey; }
+}
 .post-tags a { color: $dark-orange; }
 .post-tags a:hover { color: $grey; }
 .post-foot {
@@ -51,12 +53,18 @@
 
 .post-nav { padding: 40px 60px; overflow: hidden; }
 .post-nav .button { font-size: 14.5px; text-transform: none; padding: 7px 20px 5px 13px; margin-bottom: 0; }
-.post-nav .button .fa { position: relative; font-size: 19px; vertical-align: middle; top: -2px; }
+.post-nav .button {
+	.fa, .fab, .fas, .far { position: relative; font-size: 19px; vertical-align: middle; top: -2px; }
+}
 .post-nav-prev { float: left; }
-.post-nav-prev .fa { margin-right: 11px;  }
+.post-nav-prev {
+	.fa, .fab, .fas, .far { margin-right: 11px;  }
+}
 .post-nav-next { float: right; }
 .post-nav-next .button { padding: 7px 12px 5px 17px; }
-.post-nav-next .fa { margin-left: 8px; }
+.post-nav-next {
+	.fa, .fab, .fas, .far { margin-left: 8px; }
+}
 
 /* Attachement */
 .entry-caption {margin-top: 40px;}
@@ -121,9 +129,9 @@ img.alignright { margin-left: 1.5em; }
 
 
 
-pre { background: #f4f4f4; font: 13px "Courier 10 Pitch",Courier,monospace; line-height: 1.5; margin-bottom: 1.5em; padding: 0.75em 1.5em; color: #666; margin: 20px 0; overflow: auto; white-space: pre; white-space: pre-wrap; word-wrap: break-word; } 
+pre { background: #f4f4f4; font: 13px "Courier 10 Pitch",Courier,monospace; line-height: 1.5; margin-bottom: 1.5em; padding: 0.75em 1.5em; color: #666; margin: 20px 0; overflow: auto; white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
 
-.post-single { padding-bottom: 0; 
+.post-single { padding-bottom: 0;
 
 	.entry p { margin-bottom: 25px; }
 }
@@ -170,18 +178,18 @@ pre { background: #f4f4f4; font: 13px "Courier 10 Pitch",Courier,monospace; line
 	.post-category { margin-bottom: 30px;  }
 	.post-content { padding: 50px 60px 24px; margin-bottom: 36px; background: #212121 url(assets/images/shapes-bg.png) no-repeat center center; }
 	.post-content {
-		-webkit-background-size: cover; 
-		        background-size: cover; 
+		-webkit-background-size: cover;
+		        background-size: cover;
 	}
 	.post-author { margin-top: 0px; margin-bottom: 34px; }
 }
 
 /*  Post Format Quote  */
 
-.format-quote { padding-bottom: 15px; 
+.format-quote { padding-bottom: 15px;
 
 	.entry blockquote { font-family: 'Lora', serif; font-style: italic; border: 0; padding: 20px 60px 0 60px; margin: 0; text-align: center; }
-	
+
 	.entry blockquote cite { margin-top: 20px;}
 	.entry blockquote p { font-size: 25px; color: $dark-grey; line-height: 1.3; }
 	.entry blockquote + p { text-align: center; }
@@ -190,8 +198,8 @@ pre { background: #f4f4f4; font: 13px "Courier 10 Pitch",Courier,monospace; line
 
 	&-black { background: $dark-grey url(assets/images/shapes2-bg.png) no-repeat center center; }
 	&-black {
-		-webkit-background-size: cover; 
-		        background-size: cover; 
+		-webkit-background-size: cover;
+		        background-size: cover;
 	}
 	&-black .entry blockquote p { color: $white; }
 }
@@ -219,15 +227,15 @@ pre { background: #f4f4f4; font: 13px "Courier 10 Pitch",Courier,monospace; line
 
 /*  Post Format Aside  */
 
-.format-aside { background: $dark-grey url(assets/images/shapes2-bg.png) no-repeat center center; padding: 50px 0 0 0px; 
-	
+.format-aside { background: $dark-grey url(assets/images/shapes2-bg.png) no-repeat center center; padding: 50px 0 0 0px;
+
 	.entry { margin: 0; }
 	.entry blockquote { font-family: 'Raleway', serif; text-align: center; border: 0; padding: 0 0 50px 0; margin: 0; }
 	.entry blockquote p { color: $white; font-size: 25px; font-weight: bold; line-height: 1.5; margin: 0; }
 }
 
 @media only screen and (max-width: 641px) {
-	
+
 	.post { margin-bottom: 20px; padding: 15px 0; }
 	.post-title { font-size: 18px; }
 	.post .entry { padding: 0 20px; }
@@ -258,4 +266,3 @@ pre { background: #f4f4f4; font: 13px "Courier 10 Pitch",Courier,monospace; line
 .post-small-title { font-size: 17px; font-weight: 600; }
 .post-small-title a { color: $dark-orange; }
 .post-small-title a:hover { color: $grey; }
-

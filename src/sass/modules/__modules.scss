@@ -10,7 +10,12 @@
 @import 'comments';
 @import 'animate';
 @import 'page';
-@import 'font-awesome/scss/font-awesome';
+//Fonts
+$fa-font-path: './assets/webfonts/';
+@import "node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "node_modules/@fortawesome/fontawesome-free/scss/regular.scss";
+@import "node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+@import "node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
 @import 'archive';
 @import 'shortcodes';
 @import 'portfolio';

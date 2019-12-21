@@ -83,12 +83,12 @@
 
 							<div class="post-nav">
 								<div class="post-nav-prev">
-									<?php previous_image_link( false, __( '<i class="fa fa-angle-left"></i> Previous image', 'morningtime-lite' ) ); ?>
+									<?php previous_image_link( false, __( '<i class="fas fa-angle-left"></i> Previous image', 'morningtime-lite' ) ); ?>
 								</div><!-- /.post-nav-prev -->
 
 								<div class="post-nav-next">
 
-									<?php next_image_link( false, __( 'Next Image <i class="fa fa-angle-right"></i>', 'morningtime-lite' ) ); ?>
+									<?php next_image_link( false, __( 'Next Image <i class="fas fa-angle-right"></i>', 'morningtime-lite' ) ); ?>
 								</div><!-- /.post-nav-next -->
 							</div><!-- /.post-nav -->
 

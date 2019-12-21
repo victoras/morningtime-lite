@@ -1,0 +1,599 @@
+# Copyright (C) 2019 MorningTime Lite WordPress Theme
+# This file is distributed under the same license as the MorningTime Lite WordPress Theme package.
+msgid ""
+msgstr ""
+"Project-Id-Version: MorningTime Lite WordPress Theme\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: 404.php:19
+msgid "404"
+msgstr ""
+
+#: 404.php:20
+msgid "Oops! The page you were looking for could not be found."
+msgstr ""
+
+#: 404.php:21
+msgid "Visit Home Page"
+msgstr ""
+
+#: author-bio.php:21
+msgid "View all posts by %s"
+msgstr ""
+
+#: comments.php:14
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:22
+msgid "One Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:22
+msgid "Comments RSS"
+msgstr ""
+
+#: comments.php:22
+msgid "RSS"
+msgstr ""
+
+#: comments.php:31
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr ""
+
+#: comments.php:32
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: comments.php:42
+msgid "Comments are closed."
+msgstr ""
+
+#: content-aside.php:21, content-audio.php:39, content-audio.php:107, content-gallery.php:38, content-gallery.php:130, content-image.php:34, content-image.php:42, content-image.php:94, content-link.php:38, content-link.php:93, content-quote.php:38, content-quote.php:87, content-status.php:28, content-video.php:34, content-video.php:41, content-video.php:104, content.php:38, content.php:109
+msgid "Continue reading %s"
+msgstr ""
+
+#: content-aside.php:28, content-audio.php:43, content-audio.php:111, content-gallery.php:42, content-gallery.php:134, content-image.php:98, content-link.php:42, content-link.php:97, content-page.php:22, content-quote.php:42, content-quote.php:91, content-status.php:35, content-video.php:108, content.php:42, content.php:113, image.php:79, template-archive.php:28
+msgid "Pages:"
+msgstr ""
+
+#: content-aside.php:32, content-audio.php:47, content-audio.php:115, content-gallery.php:46, content-gallery.php:138, content-image.php:102, content-link.php:46, content-link.php:101, content-quote.php:46, content-quote.php:95, content-status.php:39, content-video.php:112, content.php:46, content.php:117
+msgid "Page"
+msgstr ""
+
+#: content-audio.php:125, content-gallery.php:114, content-gallery.php:145, content-image.php:111, content-video.php:129, content.php:123
+msgid "Read more"
+msgstr ""
+
+#: content-none.php:15
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: footer.php:40
+msgid "Designed by"
+msgstr ""
+
+#: footer.php:40
+msgid "WPlook Studio"
+msgstr ""
+
+#: functions.php:80
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:81
+msgid "Social Menu"
+msgstr ""
+
+#: functions.php:82
+msgid "Footer Menu"
+msgstr ""
+
+#: header.php:69
+msgid "Secondary Navigation"
+msgstr ""
+
+#: image.php:22
+msgid "<time class=\"post-date\" datetime=\"%1$s\">%2$s</time><div class=\"full-attach\"><a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a></div>"
+msgstr ""
+
+#: image.php:86
+msgid "<i class=\"fas fa-angle-left\"></i> Previous image"
+msgstr ""
+
+#: image.php:91
+msgid "Next Image <i class=\"fas fa-angle-right\"></i>"
+msgstr ""
+
+#: searchform.php:13, searchform.php:15
+msgid "Search for..."
+msgstr ""
+
+#: searchform.php:18
+msgid "Search"
+msgstr ""
+
+#: template-archive.php:3
+msgid "Archive"
+msgstr ""
+
+#: template-contact.php:3
+msgid "Contact"
+msgstr ""
+
+#: template-full-width.php:3
+msgid "Full Width"
+msgstr ""
+
+#: template-left-sidebar.php:3
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/comment.php:25, inc/comment.php:58
+msgid "%s "
+msgstr ""
+
+#: inc/comment.php:38, inc/comment.php:68
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/comment.php:97
+msgid "Name"
+msgstr ""
+
+#: inc/comment.php:99
+msgid "Email"
+msgstr ""
+
+#: inc/comment.php:101
+msgid "Website"
+msgstr ""
+
+#: inc/comment.php:104
+msgid "Required fields are marked %s"
+msgstr ""
+
+#: inc/comment.php:107
+msgid "Comment"
+msgstr ""
+
+#: inc/comment.php:108
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: inc/comment.php:109
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr ""
+
+#: inc/comment.php:110
+msgid "Your email address will not be published."
+msgstr ""
+
+#: inc/comment.php:113
+msgid "Leave a Comment"
+msgstr ""
+
+#: inc/comment.php:114
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: inc/comment.php:115
+msgid "or Cancel reply"
+msgstr ""
+
+#: inc/comment.php:116
+msgid "Send Comment"
+msgstr ""
+
+#: inc/customize.php:31
+msgid "Link Color"
+msgstr ""
+
+#: inc/customize.php:32
+msgid "Default Link Color"
+msgstr ""
+
+#: inc/customize.php:54, inc/customize.php:55
+msgid "Hover Link Color"
+msgstr ""
+
+#: inc/customize.php:77
+msgid "Accent Color"
+msgstr ""
+
+#: inc/customize.php:78
+msgid "Chose the Accent Color"
+msgstr ""
+
+#: inc/customize.php:91
+msgid "Morning Time Settings"
+msgstr ""
+
+#: inc/customize.php:111
+msgid "Logo"
+msgstr ""
+
+#: inc/customize.php:112
+msgid "Upload (190px x 50px) image size."
+msgstr ""
+
+#: inc/customize.php:131
+msgid "Revolution Slider"
+msgstr ""
+
+#: inc/customize.php:132
+msgid "Revolution Slider Alias. If you have installed the revolution slider Plugin, add the Slider Alias here. From this example [rev_slider test] you need to add only the word test."
+msgstr ""
+
+#: inc/customize.php:150
+msgid "Copyright"
+msgstr ""
+
+#: inc/customize.php:151
+msgid "Add Footer Copyright"
+msgstr ""
+
+#: inc/customize.php:165
+msgid ".:| More |:."
+msgstr ""
+
+#: inc/customize.php:181
+msgid "Looking for more options?"
+msgstr ""
+
+#: inc/customize.php:182
+msgid "Use .png image type."
+msgstr ""
+
+#: inc/library.php:129
+msgid "<i class=\"fas fa-angle-left\"></i>  Previous post"
+msgstr ""
+
+#: inc/library.php:133
+msgid "Next post <i class=\"fas fa-angle-right\"></i>"
+msgstr ""
+
+#: inc/library.php:276
+msgid " at "
+msgstr ""
+
+#: inc/library.php:315
+msgid "<span class=\"mobile-nav\">Previous</span>"
+msgstr ""
+
+#: inc/library.php:319
+msgid "<span class=\"mobile-nav\">Next</span>"
+msgstr ""
+
+#: inc/library.php:340
+msgid "MorningTime - Full Version"
+msgstr ""
+
+#: inc/library.php:357
+msgid "Search Results for:"
+msgstr ""
+
+#: inc/library.php:373
+msgid "Author's Posts"
+msgstr ""
+
+#: inc/library.php:378
+msgid "Page Not Found"
+msgstr ""
+
+#: inc/more.php:18
+msgid "Take advandage of our Full Version of %s<strong>Morning Time</strong>%s. Use the coupon code <strong>\"morningtime-lite\"</strong> in order to get <strong>20 percent off</strong>."
+msgstr ""
+
+#: inc/more.php:23
+msgid "<strong>The full Version is coming with:</strong>"
+msgstr ""
+
+#: inc/more.php:27
+msgid "- Great Support"
+msgstr ""
+
+#: inc/more.php:28
+msgid "- Child Theme"
+msgstr ""
+
+#: inc/more.php:29
+msgid "- Demo Content"
+msgstr ""
+
+#: inc/more.php:30
+msgid "- Custom Post Type Portfolio"
+msgstr ""
+
+#: inc/more.php:31
+msgid "- Nice Archive Template"
+msgstr ""
+
+#: inc/more.php:32
+msgid "- Post Formats"
+msgstr ""
+
+#: inc/more.php:33
+msgid "- WooCommerce Integration"
+msgstr ""
+
+#: inc/more.php:34
+msgid "- Custom Logo"
+msgstr ""
+
+#: inc/more.php:35
+msgid "- Advanced Theme Options"
+msgstr ""
+
+#: inc/more.php:36
+msgid "- %sand much more...%s"
+msgstr ""
+
+#: inc/more.php:39
+msgid "Looking for Premium themes?"
+msgstr ""
+
+#: inc/more.php:42
+msgid "MorningTime WordPress Theme - %sRead More%s"
+msgstr ""
+
+#: inc/more.php:48
+msgid "FamilyBlog WordPress Theme - %sRead More%s"
+msgstr ""
+
+#: inc/more.php:54
+msgid "Makenzie WordPress Theme - %sRead More%s"
+msgstr ""
+
+#: inc/more.php:60
+msgid "Studio 8 WordPress Theme - %sRead More%s"
+msgstr ""
+
+#: inc/more.php:66
+msgid "Charity WordPress Theme - %sRead More%s"
+msgstr ""
+
+#: inc/more.php:72
+msgid "Event WordPress Theme - %sRead More%s"
+msgstr ""
+
+#: inc/more.php:78
+msgid "Health & Medical WordPress Theme - %sRead More%s"
+msgstr ""
+
+#: inc/more.php:84
+msgid "StereoClub WordPress Theme - %sRead More%s"
+msgstr ""
+
+#: inc/more.php:90
+msgid "The Architect WordPress Theme - %sRead More%s"
+msgstr ""
+
+#: inc/more.php:97
+msgid "Browse more %sWordPress Theme%s"
+msgstr ""
+
+#: inc/more.php:101
+msgid "Need Help?"
+msgstr ""
+
+#: inc/more.php:104
+msgid "%sContact us!%s"
+msgstr ""
+
+#: inc/widgets/widget-about.php:19
+msgid "About Me widget."
+msgstr ""
+
+#: inc/widgets/widget-about.php:42, inc/widgets/widget-posts.php:41, inc/widgets/widget-social.php:117
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/widget-about.php:48
+msgid "About me:"
+msgstr ""
+
+#: inc/widgets/widget-about.php:55
+msgid "300x300px Avatar Image:"
+msgstr ""
+
+#: inc/widgets/widget-about.php:57
+msgid "Select Image"
+msgstr ""
+
+#: inc/widgets/widget-about.php:61
+msgid "This is a demo image"
+msgstr ""
+
+#: inc/widgets/widget-about.php:100
+msgid "About the Author"
+msgstr ""
+
+#: inc/widgets/widget-init.php:30
+msgid "Press/Blog Widget area"
+msgstr ""
+
+#: inc/widgets/widget-init.php:32
+msgid "Widgets in this area will be shown on all Posts."
+msgstr ""
+
+#: inc/widgets/widget-init.php:45
+msgid "Page Widget area"
+msgstr ""
+
+#: inc/widgets/widget-init.php:47
+msgid "Widgets in this area will be shown on all Pages."
+msgstr ""
+
+#: inc/widgets/widget-init.php:60
+msgid "First Footer Widget Area"
+msgstr ""
+
+#: inc/widgets/widget-init.php:62
+msgid "The first footer widget area"
+msgstr ""
+
+#: inc/widgets/widget-init.php:70
+msgid "Second Footer Widget Area"
+msgstr ""
+
+#: inc/widgets/widget-init.php:72
+msgid "The second footer widget area"
+msgstr ""
+
+#: inc/widgets/widget-init.php:80
+msgid "Third Footer Widget Area"
+msgstr ""
+
+#: inc/widgets/widget-init.php:82
+msgid "The third footer widget area"
+msgstr ""
+
+#: inc/widgets/widget-posts.php:19
+msgid "A widget for displaying latest posts"
+msgstr ""
+
+#: inc/widgets/widget-posts.php:35
+msgid "Posts"
+msgstr ""
+
+#: inc/widgets/widget-posts.php:36, inc/widgets/widget-posts.php:54
+msgid "All"
+msgstr ""
+
+#: inc/widgets/widget-posts.php:47
+msgid "Category:"
+msgstr ""
+
+#: inc/widgets/widget-posts.php:64
+msgid "Number of Posts:"
+msgstr ""
+
+#: inc/widgets/widget-posts.php:66
+msgid "Number of posts you want to display"
+msgstr ""
+
+#: inc/widgets/widget-social.php:17
+msgid "WPlook Social"
+msgstr ""
+
+#: inc/widgets/widget-social.php:18
+msgid "A widget for displaying Social Networking"
+msgstr ""
+
+#: inc/widgets/widget-social.php:34, inc/widgets/widget-social.php:41, inc/widgets/widget-social.php:48, inc/widgets/widget-social.php:54, inc/widgets/widget-social.php:60, inc/widgets/widget-social.php:66, inc/widgets/widget-social.php:73, inc/widgets/widget-social.php:79, inc/widgets/widget-social.php:85, inc/widgets/widget-social.php:91, inc/widgets/widget-social.php:97, inc/widgets/widget-social.php:103, inc/widgets/widget-social.php:110
+msgstr ""
+
+#: inc/widgets/widget-social.php:125
+msgid "Twitter:"
+msgstr ""
+
+#: inc/widgets/widget-social.php:129
+msgid "Insert the full URL of your Twitter profile."
+msgstr ""
+
+#: inc/widgets/widget-social.php:136
+msgid "Facebook:"
+msgstr ""
+
+#: inc/widgets/widget-social.php:140
+msgid "Insert the full URL of your Facebook profile, page or group."
+msgstr ""
+
+#: inc/widgets/widget-social.php:147
+msgid "RSS:"
+msgstr ""
+
+#: inc/widgets/widget-social.php:151
+msgid "Insert the Url of your RSS. You may include your RSS from Feedburner."
+msgstr ""
+
+#: inc/widgets/widget-social.php:158
+msgid "Google Plus:"
+msgstr ""
+
+#: inc/widgets/widget-social.php:162
+msgid "Insert the full URL of your Google Plus profile"
+msgstr ""
+
+#: inc/widgets/widget-social.php:169
+msgid "You Tube:"
+msgstr ""
+
+#: inc/widgets/widget-social.php:173
+msgid "Insert the full URL of your YouTube profile."
+msgstr ""
+
+#: inc/widgets/widget-social.php:180
+msgid "Vimeo:"
+msgstr ""
+
+#: inc/widgets/widget-social.php:184
+msgid "Insert the full URL of your vimeo profile."
+msgstr ""
+
+#: inc/widgets/widget-social.php:191
+msgid "Lastfm:"
+msgstr ""
+
+#: inc/widgets/widget-social.php:195
+msgid "Insert the full URL of your lastfm profile."
+msgstr ""
+
+#: inc/widgets/widget-social.php:202
+msgid "Soundcloud:"
+msgstr ""
+
+#: inc/widgets/widget-social.php:206
+msgid "Insert the full URL of your soundcloud profile."
+msgstr ""
+
+#: inc/widgets/widget-social.php:213
+msgid "Pinterest:"
+msgstr ""
+
+#: inc/widgets/widget-social.php:217
+msgid "Insert the full URL of your Pinterest profile."
+msgstr ""
+
+#: inc/widgets/widget-social.php:224
+msgid "Flickr:"
+msgstr ""
+
+#: inc/widgets/widget-social.php:228
+msgid "Insert the full URL of your Flickr profile."
+msgstr ""
+
+#: inc/widgets/widget-social.php:235
+msgid "Linkedin:"
+msgstr ""
+
+#: inc/widgets/widget-social.php:239
+msgid "Insert the full URL of your Linkedin profile."
+msgstr ""
+
+#: inc/widgets/widget-social.php:246
+msgid "Instagram:"
+msgstr ""
+
+#: inc/widgets/widget-social.php:250
+msgid "Insert the full URL of your Instagram profile."
+msgstr ""

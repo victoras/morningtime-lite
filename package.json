@@ -1,0 +1,42 @@
+{
+		"name": "morningtime-lite",
+		"version": "1.0.12",
+		"description": "Morning Time Lite is a modern and clean Premium WordPress theme designed for personal Blogging. The theme will help you to get a unique look for your blog as it has a lot of great features. Morning Time Lite is perfect to display daily articles in a beautiful way, the design is responsive meaning the theme looks just perfect for devices such as iPad, iPhone, and desktop, it has a great post format gallery which creates the possibility for you to display images from your galleries inside posts, awesome standard post format, audio post format, quote, aside and video post format.",
+		"main": "gulpfile.js",
+		"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+		},
+		"repository": {
+				"type": "git",
+				"url": "git+https://github.com/victoras/morningtime-lite.git"
+		},
+		"author": "Victor Tihai, WPlook Themes, https://wplook.com",
+		"license": "ISC",
+		"bugs": {
+				"url": "https://github.com/victoras/morningtime-lite/issues"
+		},
+		"homepage": "https://github.com/victoras/morningtime-lite#readme",
+		"dependencies": {
+				"@fortawesome/fontawesome-free": "^5.12.0",
+				"del": "^5.1.0",
+				"fastclick": "^1.0.6",
+				"foundation-sites-5": "^5.5.3",
+				"gulp": "^4.0.2",
+				"gulp-autoprefixer": "^7.0.1",
+				"gulp-cache": "^1.1.3",
+				"gulp-clean-css": "^4.2.0",
+				"gulp-concat": "^2.6.1",
+				"gulp-cssbeautify": "^2.0.0",
+				"gulp-jshint": "^2.1.0",
+				"gulp-notify": "^3.2.0",
+				"gulp-plumber": "^1.2.1",
+				"gulp-rename": "^2.0.0",
+				"gulp-rigger": "^0.5.8",
+				"gulp-sass": "^4.0.2",
+				"gulp-sourcemaps": "^2.6.5",
+				"gulp-uglify": "^3.0.2",
+				"gulp-wp-pot": "^2.3.6",
+				"jquery-placeholder": "^2.3.1",
+				"jshint": "^2.11.0-rc1"
+		}
+}

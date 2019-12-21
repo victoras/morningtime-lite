@@ -39,7 +39,7 @@
 						</li>
 
 						<li class="toggle-topbar menu-icon">
-							<a href="#"><i class="fa fa-bars"></i></a>
+							<a href="#"><i class="fas fa-bars"></i></a>
 							<span class="toggle-area"></span>
 						</li>
 					</ul>
