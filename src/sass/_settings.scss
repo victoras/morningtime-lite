@@ -1,45 +1,30 @@
 // Foundation by ZURB
 // foundation.zurb.com
 // Licensed under MIT Open Source
-
 @import "node_modules/foundation-sites-5/scss/foundation/functions";
-
-
-
 // The default font-size is set to 100% of the browser style sheet (usually 16px)
 // for compatibility with browser-based text zoom or user-set defaults.
-
 // Since the typical default browser font-size is 16px, that makes the calculation for grid size.
 // If you want your base font-size to be different and not have it affect the grid breakpoints,
 // set $rem-base to $base-font-size and make sure $base-font-size is a px value.
 // $base-font-size: 100%;
-
 // The $base-font-size is 100% while $base-line-height is 150%
 // $base-line-height: 150%;
-
 // We use this to control whether or not CSS classes come through in the gem files.
-$include-html-classes: true;
-// $include-print-styles: true;
+$include-html-classes: true; // $include-print-styles: true;
 $include-html-global-classes: $include-html-classes;
-
 // b. Grid
 // - - - - - - - - - - - - - - - - - - - - - - - - -
-
 // $include-html-grid-classes: $include-html-classes;
 // $include-xl-html-grid-classes: false;
-
 $row-width: rem-calc(1200);
 $total-columns: 12;
 $column-gutter: rem-calc(40);
-
 // $last-child-float: $opposite-direction;
-
 // c. Global
 // - - - - - - - - - - - - - - - - - - - - - - - - -
-
 // We use these to define default font stacks
 $font-family-sans-serif: 'Helvetica', "Helvetica Neue", Roboto, Arial, sans-serif;
 $font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif;
 $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
-
 @import 'node_modules/foundation-sites-5/scss/foundation';

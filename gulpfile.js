@@ -90,12 +90,12 @@ function styles() {
 	.pipe(plumber({errorHandler: onError}))
 	.pipe(sourcemaps.init())
 	.pipe(sass({ style: 'expanded', errLogToConsole: true }))
-	// .pipe(autoprefixer({ cascade: true }))
-	// .pipe(cssbeautify({
-	// 	indent: '	',
-	// 	openbrace: 'end-of-line',
-	// 	autosemicolon: false
-	// }))
+	.pipe(autoprefixer({ cascade: true }))
+	.pipe(cssbeautify({
+		indent: '	',
+		openbrace: 'end-of-line',
+		autosemicolon: false
+	}))
 	.pipe(sourcemaps.write('.'))
 	.pipe(gulp.dest(paths.home))
 	//.pipe(notify({ message: 'Styles task complete: <%= file.relative %>!' }));

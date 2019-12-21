@@ -18,7 +18,7 @@
 		putRevSlider( get_theme_mod('wplook_rev_slider') );
 	} else { ?>
 		<section class="section-slider">
-			<div class="slider-home loading">
+			<div class="slider-home loading no-js">
 				<div class="slider-clip">
 					<ul class="slides">
 

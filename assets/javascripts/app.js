@@ -7,6 +7,7 @@ jQuery(document).ready(function() {
 	// Load Foundation
 	doc.foundation();
 
+	jQuery( ".slider-home" ).removeClass( "no-js" );
 	// Navigation Submenu Icons
 	jQuery('.top-bar-section .has-dropdown').append('<i class="fas fa-angle-right"></i>')
 
