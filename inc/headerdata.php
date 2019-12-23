@@ -57,12 +57,6 @@ if ( ! function_exists( 'wplook_scripts_include' ) ) {
 
 
 		/*-----------------------------------------------------------
-			Modernizr
-		-----------------------------------------------------------*/
-		wp_enqueue_script( 'modernizr', get_template_directory_uri().'/assets/javascripts/modernizr.min.js', '', '', 'footer' );
-
-
-		/*-----------------------------------------------------------
 			Foundation
 		-----------------------------------------------------------*/
 		wp_enqueue_script( 'foundation', get_template_directory_uri().'/assets/javascripts/foundation.min.js', '', '', 'footer' );
