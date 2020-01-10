@@ -54,7 +54,7 @@ var paths = {
 	assets_js: './assets/javascripts/',
 	assets_font: './assets/webfonts/',
 	assets_images: './assets/images/',
-	lang_folder: './languages/',
+	lang_file: './languages/morningtime-lite.pot',
 	src_css_fe: './src/sass/',
 	src_js: './src/javascripts/',
 };
@@ -64,7 +64,7 @@ var onError = function(err) {
 }
 
 function clean() {
-	return del( [paths.assets_css, paths.assets_js, paths.lang_folder, paths.assets_images]);
+	return del( [paths.assets_css, paths.assets_js, paths.lang_file, paths.assets_images]);
 }
 
 // Vendors
@@ -148,9 +148,11 @@ function genPot() {
 	.src('**/*.php')
 	.pipe(wpPot( {
 		domain: 'morningtime-lite',
-		package: 'MorningTime Lite WordPress Theme'
+		package: 'MorningTime Lite WordPress Theme',
+		lastTranslator: 'Victor Tihai victor@wplook.com',
+		team: 'WPlook Themes wplook.com'
 	} ))
-	.pipe(gulp.dest('languages/morningtime-lite.pot'))
+	.pipe(gulp.dest(paths.lang_file))
 	//.pipe(notify({ message: 'Generated -> Pot File!' }));
 }
 
