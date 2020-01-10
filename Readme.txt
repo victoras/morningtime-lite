@@ -52,10 +52,6 @@ jQuery Cookie
 Source: https://github.com/carhartl/jquery-cookie,
 Licence: https://github.com/carhartl/jquery-cookie/blob/master/MIT-LICENSE.txt
 
-Modernizr
-Source: https://github.com/modernizr/modernizr',
-Licence: Modernizr 3.0.0pre (Custom Build) | MIT
-
 Foundation Zurb
 Source: http://foundation.zurb.com/docs/javascript.html,
 Licence: Foundation is MIT licensed and free to use on anything you'd like. You can even fork the framework and make it your own. To give people the most freedom to do what they want with the framework, we had to give them a license to do so. Companies and people use Foundation to build their sites, templates to sell, and other resources. The only thing you can't do is sell Foundation itself.

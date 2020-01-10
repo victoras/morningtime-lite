@@ -7,6 +7,16 @@
 - Updated Foundation Zurb
 - other minor changes
 
+* Version - 1.0.12
+- UPDATED Font FontAwesome 5.12
+- UPDATED - JavaScripts
+- UPDATED - Foundation Zurb to 5.5.3
+- UPDATED - Pot File
+- IMPROVED - Fonts Compatibility
+- Beautify CSS
+- REMOVED - Modernizr
+- Other minor issues
+
 * Version - 1.0.11
 - Fixed a customizer issue
 
