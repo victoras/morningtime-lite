@@ -401,6 +401,14 @@ msgstr ""
 msgid "%sContact us!%s"
 msgstr ""
 
+#: inc/pro/class-customize.php:76
+msgid "MORNING TIME PRO"
+msgstr ""
+
+#: inc/pro/class-customize.php:77
+msgid "TRY PRO"
+msgstr ""
+
 #: inc/widgets/widget-about.php:19
 msgid "About Me widget."
 msgstr ""

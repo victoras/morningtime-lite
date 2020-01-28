@@ -1,11 +1,6 @@
 == Changelog ==
-* Version - 1.0.12
-- Updated to Font Awesome 5+
-- Fixed Slider
-- Optimized CSS file
-- Beautify the CSS
-- Updated Foundation Zurb
-- other minor changes
+* Updated pot file
+* fixed a few minor issues.
 
 * Version - 1.0.12
 - UPDATED Font FontAwesome 5.12

@@ -120,6 +120,7 @@ if ( ! function_exists( 'morning_time_lite_initiate_files' ) ) {
 
 		// Include Customizer
 		include_once( get_template_directory() . '/inc/customize.php' );
+		include_once( get_template_directory() . '/inc/pro/class-customize.php' );
 
 		// Include other functions
 		include_once( get_template_directory() . '/inc/library.php' );
