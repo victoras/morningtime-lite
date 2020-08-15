@@ -7,80 +7,62 @@
  * @since Morning Time Lite 1.0
 */
 
-if ( ! function_exists( 'morning_time_lite_comment' ) ) :
+if ( ! function_exists( 'morning_time_lite_comment' ) ) {
+function morning_time_lite_comment($comment, $args, $depth) {
+		$GLOBALS['comment'] = $comment;
+		extract($args, EXTR_SKIP);
 
-function morning_time_lite_comment( $comment, $args, $depth ) {
-	$GLOBALS['comment'] = $comment;
-	switch ( $comment->comment_type ) :
-		case '' :
+		if ( 'div' == $args['style'] ) {
+			$tag = 'div';
+			$add_below = 'comment';
+		} else {
+			$tag = 'li';
+			$add_below = 'div-comment';
+		}
 	?>
-	<li <?php comment_class(); ?> id="comment-<?php comment_ID(); ?>">
-		<div class="comment-image">
-			<?php echo get_avatar( $comment, 80 ); ?>
-		</div><!-- /.comment-image -->
+		<<?php echo $tag ?> <?php comment_class( empty( $args['has_children'] ) ? '' : 'parent' ) ?> id="comment-<?php comment_ID() ?>">
+			<?php if ( 'div' != $args['style'] ) : ?>
+				<div id="div-comment-<?php comment_ID() ?>" class="comment-body">
+			<?php endif; ?>
+		<article>
 
-		<div class="comment-content">
-			<div class="comment-head clearfix">
-				<h4 class="comment-author left">
-					<?php printf( __( '%s ', 'morningtime-lite' ), sprintf( '%s', get_comment_author_link() ) ); ?>
+			<header class="entry-header comment-author">
 
-					<small itemprop="commentTime"><?php echo get_comment_date() ?> @ <?php echo get_comment_time() ?></small>
-				</h4>
+						<div class="comment-image">
+							<?php if ( $args['avatar_size'] != 0 ) echo get_avatar( $comment, $args['avatar_size'] ); ?>
+						</div>
 
-				<div class="comment-reply right">
-					<a class="comment-reply-link" href="" itemprop="replyToUrl"><?php comment_reply_link( array_merge( $args, array( 'depth' => $depth, 'max_depth' => $args['max_depth'] ) ) ); ?></a>
+						<?php printf( '<div class="comment-author-name fn">%s</div>', get_comment_author_link() ); ?>
+
+						<div class="posted-on">
+							<a href="<?php echo htmlspecialchars( get_comment_link( $comment->comment_ID ) ); ?>">
+								<?php printf( __('%1$s at %2$s', 'conference-wpl'), get_comment_date(),  get_comment_time() ); ?>
+							</a>
+						</div>
+			</header>
+
+			<div class="comment-text">
+				<?php if ( $comment->comment_approved == '0' ) : ?>
+					<em class="comment-awaiting-moderation"><?php _e( 'Your comment is awaiting moderation.', 'conference-wpl' ); ?></em>
+					<br />
+				<?php endif; ?>
+					<?php comment_text(); ?>
+			</div>
+
+			<footer class="entry-footer comment-meta commentmetadata">
+				<div class="reply-link">
+					<?php comment_reply_link( array_merge( $args, array( 'add_below' => $add_below, 'depth' => $depth, 'max_depth' => $args['max_depth'] ) ) ); ?>
 				</div>
-			</div><!-- /.comment-head clearfix -->
-
-			<div class="comment-text" itemprop="commentText">
-				<?php if ( $comment->comment_approved == '0' ) : ?>
-					<div class="comment-awaiting-moderation">
-						<?php _e( 'Your comment is awaiting moderation.', 'morningtime-lite' ); ?>
-					</div>
-					<br />
-					<?php endif; ?>
-				<?php comment_text(); ?>
+			</footer>
+		</article>
+		<?php if ( 'div' != $args['style'] ) : ?>
 			</div>
-		</div><!-- /.comment-content -->
-		<div class="clear"></div>
-	</li>
-
-<?php
-	break;
-	case 'pingback' :
-	case 'trackback' :
-	?>
-	<li <?php comment_class(); ?> id="comment-<?php comment_ID(); ?>">
-
-		<div class="comment-content">
-			<div class="comment-head clearfix">
-				<h4 class="comment-author left">
-					<?php printf( __( '%s ', 'morningtime-lite' ), sprintf( '%s', get_comment_author_link() ) ); ?>
-
-					<small itemprop="commentTime"><?php echo get_comment_date() ?> @ <?php echo get_comment_time() ?></small>
-				</h4>
-
-			</div><!-- /.comment-head clearfix -->
-
-			<div class="comment-text" itemprop="commentText">
-				<?php if ( $comment->comment_approved == '0' ) : ?>
-					<div class="comment-awaiting-moderation">
-						<?php _e( 'Your comment is awaiting moderation.', 'morningtime-lite' ); ?>
-					</div>
-					<br />
-					<?php endif; ?>
-				<?php comment_text(); ?>
-			</div>
-		</div><!-- /.comment-content -->
-		<div class="clear"></div>
-	</li>
+		<?php endif; ?>
+	<?php
+	}
+}
 
 
-<?php break; 	endswitch;
-} endif; ?>
-<?php
-// create new comment form
-// Credits: http://snipplr.com
 function morning_time_lite_comment_form( $args = array(), $post_id = null ) {
 	global $user_identity, $id;
 	if ( null === $post_id ) {

@@ -49,15 +49,15 @@ msgstr ""
 msgid "RSS"
 msgstr ""
 
-#: comments.php:31
+#: comments.php:36
 msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
 msgstr ""
 
-#: comments.php:32
+#: comments.php:37
 msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
 msgstr ""
 
-#: comments.php:42
+#: comments.php:47
 msgid "Comments are closed."
 msgstr ""
 
@@ -149,59 +149,51 @@ msgstr ""
 msgid "Left Sidebar"
 msgstr ""
 
-#: inc/comment.php:25, inc/comment.php:58
-msgid "%s "
-msgstr ""
-
-#: inc/comment.php:38, inc/comment.php:68
-msgid "Your comment is awaiting moderation."
-msgstr ""
-
-#: inc/comment.php:97
+#: inc/comment.php:79
 msgid "Name"
 msgstr ""
 
-#: inc/comment.php:99
+#: inc/comment.php:81
 msgid "Email"
 msgstr ""
 
-#: inc/comment.php:101
+#: inc/comment.php:83
 msgid "Website"
 msgstr ""
 
-#: inc/comment.php:104
+#: inc/comment.php:86
 msgid "Required fields are marked %s"
 msgstr ""
 
-#: inc/comment.php:107
+#: inc/comment.php:89
 msgid "Comment"
 msgstr ""
 
-#: inc/comment.php:108
+#: inc/comment.php:90
 msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
 msgstr ""
 
-#: inc/comment.php:109
+#: inc/comment.php:91
 msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
 msgstr ""
 
-#: inc/comment.php:110
+#: inc/comment.php:92
 msgid "Your email address will not be published."
 msgstr ""
 
-#: inc/comment.php:113
+#: inc/comment.php:95
 msgid "Leave a Comment"
 msgstr ""
 
-#: inc/comment.php:114
+#: inc/comment.php:96
 msgid "Leave a Reply to %s"
 msgstr ""
 
-#: inc/comment.php:115
+#: inc/comment.php:97
 msgid "or Cancel reply"
 msgstr ""
 
-#: inc/comment.php:116
+#: inc/comment.php:98
 msgid "Send Comment"
 msgstr ""
 

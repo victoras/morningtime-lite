@@ -27,80 +27,70 @@
 	list-style: none outside none;
 	margin: 0 0 40px;
 }
-
+.comment {
+	padding: 20px;
+}
 .comment + .comment {
 	margin-top: 44px;
 }
 
 .comment-image {
 	float: left;
-	width: 74px;
 	border-radius: 50%;
 	overflow: hidden;
 	margin-right: 27px;
 }
 
-.comment-image img {
-	width: 100%;
-	height: auto;
-}
+
 
 .comment-content {
 	overflow: hidden;
 }
 
 .comment-author {
-	font-size: 14.5px;
-	font-weight: 600;
-	color: $dark-grey;
-	font-weight: bold;
-	margin: 2px 0 4px;
+	margin-bottom: 20px;
+	.comment-author-name{
+		font-size: 14.5px;
+		font-weight: 600;
+		color: $dark-grey;
+		margin: 10px 0 4px;
+		a {
+			color: $dark-grey;
+			&:hover {
+			color: $blue;
+			}
+		}
+	}
 }
 
-.comment-author a {
-	color: $dark-grey;
+.thread-even {
+	background: $lighter-grey;
 }
 
-.comment-author a:hover {
-	color: $blue;
+.children {
+	list-style: none;
 }
 
-.comment-author small {
-	font-size: 12px;
-	color: $grey;
-}
-
-.comment-author small:before {
-	content: '- ';
-	color: $dark-grey;
-	font-weight: bold;
-}
-
-.comment-reply {
+.reply-link {
 	font-size: 11px;
 	text-transform: uppercase;
 	margin-top: 3px;
+	text-align: right;
+	a {
+		color: $blue;
+	}
+	a:hover {
+		color: $grey;
+	}
 }
 
-.comment-reply a {
-	color: $blue;
-}
-
-.comment-reply a:hover {
-	color: $grey;
-}
 
 .comment-text p {
-	font-size: 14px;
+	font-size: 15px;
 	line-height: 1.8;
 	color: $grey;
 }
-@media only screen and (max-width: 641px) {
-	.comment-image {
-		float: none;
-		margin: 0 auto 15px;
-	}
-}
+
 /*  Respond  */
 .respond {
 	padding: 0;
