@@ -20762,9 +20762,7 @@ readers do not read off random characters that represent icons */
 	content: "\f13e";
 }
 
-.fa-unsplash:before {
-	content: "\e07c";
-}
+
 
 .fa-untappd:before {
 	content: "\f405";
@@ -21802,5 +21800,3 @@ readers do not read off random characters that represent icons */
 .portfolio-options strong {
 	color: #000000;
 }
-
-/*# sourceMappingURL=style.css.map */

@@ -109,7 +109,7 @@ msgstr ""
 msgid "Footer Menu"
 msgstr ""
 
-#: header.php:69
+#: header.php:70
 msgid "Secondary Navigation"
 msgstr ""
 

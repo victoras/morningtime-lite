@@ -72,13 +72,13 @@ function vendorStyles() {
 	return gulp
 	.src([ paths.src_css_fe + 'custom-editor-style.scss'])
 	.pipe(plumber({errorHandler: onError}))
-	.pipe(sourcemaps.init())
+	//.pipe(sourcemaps.init())
 	.pipe(sass({ style: 'expanded', errLogToConsole: true }))
 	.pipe(autoprefixer({ cascade: true }))
 	.pipe(gulp.dest(paths.assets_css))
 	.pipe(rename({ suffix: '.min' }))
 	.pipe(cleancss())
-	.pipe(sourcemaps.write('.'))
+	//.pipe(sourcemaps.write('.'))
 	.pipe(gulp.dest(paths.assets_css))
 	//.pipe(notify({ message: 'vendorStyles task complete: <%= file.relative %>!' }));
 }
@@ -88,7 +88,7 @@ function styles() {
 	return gulp
 	.src([paths.src_css_fe + 'style.scss'])
 	.pipe(plumber({errorHandler: onError}))
-	.pipe(sourcemaps.init())
+	//.pipe(sourcemaps.init())
 	.pipe(sass({ style: 'expanded', errLogToConsole: true }))
 	.pipe(autoprefixer({ cascade: true }))
 	.pipe(cssbeautify({
@@ -96,7 +96,7 @@ function styles() {
 		openbrace: 'end-of-line',
 		autosemicolon: false
 	}))
-	.pipe(sourcemaps.write('.'))
+	//.pipe(sourcemaps.write('.'))
 	.pipe(gulp.dest(paths.home))
 	//.pipe(notify({ message: 'Styles task complete: <%= file.relative %>!' }));
 }
