@@ -41,55 +41,55 @@ class Wplook_Customize_Control extends WP_Customize_Control {
 			<p>
 				<span class="customize-control-title"><?php printf( __( 'MorningTime WordPress Theme - %sRead More%s', 'morningtime-lite' ) , '<a href="https://wplook.com/product/themes/personal/personal-blog-wordpress-theme/?utm_source=view_morningtime&utm_medium=link&utm_campaign=MorningTime-Lite">', '</a>' ); ?></span>
 			</p>
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/morning-time.jpg" alt="MorningTime">
+			<img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/morning-time.jpg" alt="MorningTime">
 			<br />
 
 			<p>
 				<span class="customize-control-title"><?php printf( __( 'FamilyBlog WordPress Theme - %sRead More%s', 'morningtime-lite' ) , '<a href="https://wplook.com/product/themes/personal/create-family-blog-wordpress-theme/?utm_source=view_family_blog&utm_medium=link&utm_campaign=MorningTime-Lite">', '</a>' ); ?></span>
 			</p>
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/family-blog.jpg" alt="FamilyBlog">
+			<img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/family-blog.jpg" alt="FamilyBlog">
 			<br />
 
 			<p>
 				<span class="customize-control-title"><?php printf( __( 'Makenzie WordPress Theme - %sRead More%s', 'morningtime-lite' ) , '<a href="https://wplook.com/product/themes/magazines/makenzie-lifestyle-blog-magazine-wordpress-theme/?utm_source=view_makenzie&utm_medium=link&utm_campaign=MorningTime-Lite">', '</a>' ); ?></span>
 			</p>
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/makenzie.jpg" alt="Makenzie">
+			<img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/makenzie.jpg" alt="Makenzie">
 			<br />
 
 			<p>
 				<span class="customize-control-title"><?php printf( __( 'Studio 8 WordPress Theme - %sRead More%s', 'morningtime-lite' ) , '<a href="https://wplook.com/product/themes/business/studio-8-agency-wordpress-theme/?utm_source=view_studio8&utm_medium=link&utm_campaign=MorningTime-Lite">', '</a>' ); ?></span>
 			</p>
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/studio8.jpg" alt="Studio 8">
+			<img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/studio8.jpg" alt="Studio 8">
 			<br />
 
 			<p>
 				<span class="customize-control-title"><?php printf( __( 'Charity WordPress Theme - %sRead More%s', 'morningtime-lite' ) , '<a href="https://wplook.com/product/themes/non-profit/charity-nonprofit-wordpress-theme/?utm_source=view_charity&utm_medium=link&utm_campaign=MorningTime-Lite">', '</a>' ); ?></span>
 			</p>
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/charity.jpg" alt="Charity">
+			<img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/charity.jpg" alt="Charity">
 			<br />
 
 			<p>
 				<span class="customize-control-title"><?php printf( __( 'Event WordPress Theme - %sRead More%s', 'morningtime-lite' ) , '<a href="https://wplook.com/product/themes/conference-events/event-wordpress-theme/?utm_source=view_event&utm_medium=link&utm_campaign=MorningTime-Lite">', '</a>' ); ?></span>
 			</p>
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/event.jpg" alt="Event">
+			<img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/event.jpg" alt="Event">
 			<br />
 
 			<p>
 				<span class="customize-control-title"><?php printf( __( 'Health & Medical WordPress Theme - %sRead More%s', 'morningtime-lite' ) , '<a href="https://wplook.com/product/themes/business/medical-wordpress-theme/?utm_source=view_medical&utm_medium=link&utm_campaign=MorningTime-Lite">', '</a>' ); ?></span>
 			</p>
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/medical.jpg" alt="Health & Medical ">
+			<img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/medical.jpg" alt="Health & Medical ">
 			<br />
 
 			<p>
 				<span class="customize-control-title"><?php printf( __( 'StereoClub WordPress Theme - %sRead More%s', 'morningtime-lite' ) , '<a href="https://wplook.com/product/themes/music-band/stereoclub-nightclub-band-wordpress-theme/?utm_source=view_stereoclub&utm_medium=link&utm_campaign=MorningTime-Lite">', '</a>' ); ?></span>
 			</p>
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/stereoclub.jpg" alt="StereoClub ">
+			<img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/stereoclub.jpg" alt="StereoClub ">
 			<br />
 
 			<p>
 				<span class="customize-control-title"><?php printf( __( 'The Architect WordPress Theme - %sRead More%s', 'morningtime-lite' ) , '<a href="https://wplook.com/product/themes/business/architect-wordpress-theme/?utm_source=view_the_architect&utm_medium=link&utm_campaign=MorningTime-Lite">', '</a>' ); ?></span>
 			</p>
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/thearchitect.jpg" alt="The Architect ">
+			<img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/thearchitect.jpg" alt="The Architect ">
 			<br />
 
 			<p>

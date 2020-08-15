@@ -8,7 +8,7 @@
  */
 ?>
 
-<form class="search-form" role="search" method="get" id="searchform" action="<?php echo home_url( '/' ); ?>">
+<form class="search-form" role="search" method="get" id="searchform" action="<?php echo esc_url( home_url( '/' ) ); ?>">
 	<label>
 		<span class="screen-reader-text"><?php _e('Search for...', 'morningtime-lite'); ?></span>
 

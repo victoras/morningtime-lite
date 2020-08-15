@@ -36,14 +36,14 @@ function morning_time_lite_comment($comment, $args, $depth) {
 
 						<div class="posted-on">
 							<a href="<?php echo htmlspecialchars( get_comment_link( $comment->comment_ID ) ); ?>">
-								<?php printf( __('%1$s at %2$s', 'conference-wpl'), get_comment_date(),  get_comment_time() ); ?>
+								<?php printf( __('%1$s at %2$s', 'morningtime-lite'), get_comment_date(),  get_comment_time() ); ?>
 							</a>
 						</div>
 			</header>
 
 			<div class="comment-text">
 				<?php if ( $comment->comment_approved == '0' ) : ?>
-					<em class="comment-awaiting-moderation"><?php _e( 'Your comment is awaiting moderation.', 'conference-wpl' ); ?></em>
+					<em class="comment-awaiting-moderation"><?php _e( 'Your comment is awaiting moderation.', 'morningtime-lite' ); ?></em>
 					<br />
 				<?php endif; ?>
 					<?php comment_text(); ?>

@@ -16,6 +16,7 @@
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
+<?php wp_body_open(); ?>
 <div class="wrapper">
 	<header class="header">
 		<div class="row">
@@ -26,7 +27,7 @@
 							<?php if ( get_theme_mod('wplook_logo') ){ ?>
 								<h1 id="site-title">
 									<a class="logo-img" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?> - <?php bloginfo('description'); ?>" rel="home">
-										<img src="<?php echo get_theme_mod('wplook_logo') ?>">
+										<img src="<?php echo esc_url(get_theme_mod('wplook_logo')) ?>">
 									</a>
 									<small><?php bloginfo('description'); ?></small>
 								</h1>

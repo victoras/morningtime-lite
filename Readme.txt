@@ -32,12 +32,12 @@ along with this program.  If not, see .
 
 MorningTime WordPress Theme bundles the following third-party resources:
 
-## Header Image - The image source is https://unsplash.com and it's under GPL licence.
+## Header Image - The image source is https://stocksnap.io/photo/sunrise-morning-CD2134E2DD and it's under GPL licence.
 UNSPLASH LICENSE
 
 All photos published on Unsplash are licensed under Creative Commons Zero which means you can copy, modify, distribute and use the photos for free, including commercial purposes, without asking permission from or providing attribution to the photographer or Unsplash.
 
-## URL to the image - https://images.unsplash.com/22/good-mornin.JPG?q=80&fm=jpg&s=4a4c8c76a1e173587a3056a26c5759b9
+## URL to the image - https://stocksnap.io/photo/sunrise-morning-CD2134E2DD
 
 ## JavaScripts
 Fast Click

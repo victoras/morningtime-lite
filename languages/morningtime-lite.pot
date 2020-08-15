@@ -149,6 +149,14 @@ msgstr ""
 msgid "Left Sidebar"
 msgstr ""
 
+#: inc/comment.php:39
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/comment.php:46
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
 #: inc/comment.php:79
 msgid "Name"
 msgstr ""
