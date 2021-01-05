@@ -1,4 +1,4 @@
-# Copyright (C) 2020 MorningTime Lite WordPress Theme
+# Copyright (C) 2021 MorningTime Lite WordPress Theme
 # This file is distributed under the same license as the MorningTime Lite WordPress Theme package.
 msgid ""
 msgstr ""
@@ -61,19 +61,19 @@ msgstr ""
 msgid "Comments are closed."
 msgstr ""
 
-#: content-aside.php:21, content-audio.php:39, content-audio.php:107, content-gallery.php:38, content-gallery.php:130, content-image.php:34, content-image.php:42, content-image.php:94, content-link.php:38, content-link.php:93, content-quote.php:38, content-quote.php:87, content-status.php:28, content-video.php:34, content-video.php:41, content-video.php:104, content.php:38, content.php:109
+#: content-aside.php:21, content-audio.php:107, content-audio.php:39, content-gallery.php:130, content-gallery.php:38, content-image.php:94, content-image.php:42, content-image.php:34, content-link.php:93, content-link.php:38, content-quote.php:87, content-quote.php:38, content-status.php:28, content-video.php:104, content-video.php:41, content-video.php:34, content.php:109, content.php:38
 msgid "Continue reading %s"
 msgstr ""
 
-#: content-aside.php:28, content-audio.php:43, content-audio.php:111, content-gallery.php:42, content-gallery.php:134, content-image.php:98, content-link.php:42, content-link.php:97, content-page.php:22, content-quote.php:42, content-quote.php:91, content-status.php:35, content-video.php:108, content.php:42, content.php:113, image.php:79, template-archive.php:28
+#: content-aside.php:28, content-audio.php:111, content-audio.php:43, content-gallery.php:134, content-gallery.php:42, content-image.php:98, content-link.php:97, content-link.php:42, content-page.php:22, content-quote.php:91, content-quote.php:42, content-status.php:35, content-video.php:108, content.php:113, content.php:42, image.php:79, template-archive.php:28
 msgid "Pages:"
 msgstr ""
 
-#: content-aside.php:32, content-audio.php:47, content-audio.php:115, content-gallery.php:46, content-gallery.php:138, content-image.php:102, content-link.php:46, content-link.php:101, content-quote.php:46, content-quote.php:95, content-status.php:39, content-video.php:112, content.php:46, content.php:117
+#: content-aside.php:32, content-audio.php:115, content-audio.php:47, content-gallery.php:138, content-gallery.php:46, content-image.php:102, content-link.php:101, content-link.php:46, content-quote.php:95, content-quote.php:46, content-status.php:39, content-video.php:112, content.php:117, content.php:46
 msgid "Page"
 msgstr ""
 
-#: content-audio.php:125, content-gallery.php:114, content-gallery.php:145, content-image.php:111, content-video.php:129, content.php:123
+#: content-audio.php:125, content-gallery.php:145, content-gallery.php:114, content-image.php:111, content-video.php:129, content.php:123
 msgid "Read more"
 msgstr ""
 
@@ -81,12 +81,12 @@ msgstr ""
 msgid "Nothing Found"
 msgstr ""
 
-#: content-none.php:23
-msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr ""
-
 #: content-none.php:28
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
 msgstr ""
 
 #: footer.php:40
@@ -289,16 +289,16 @@ msgstr ""
 msgid "MorningTime - Full Version"
 msgstr ""
 
-#: inc/library.php:357
-msgid "Search Results for:"
+#: inc/library.php:378
+msgid "Page Not Found"
 msgstr ""
 
 #: inc/library.php:373
 msgid "Author's Posts"
 msgstr ""
 
-#: inc/library.php:378
-msgid "Page Not Found"
+#: inc/library.php:357
+msgid "Search Results for:"
 msgstr ""
 
 #: inc/more.php:18
@@ -510,6 +510,7 @@ msgid "A widget for displaying Social Networking"
 msgstr ""
 
 #: inc/widgets/widget-social.php:34, inc/widgets/widget-social.php:41, inc/widgets/widget-social.php:48, inc/widgets/widget-social.php:54, inc/widgets/widget-social.php:60, inc/widgets/widget-social.php:66, inc/widgets/widget-social.php:73, inc/widgets/widget-social.php:79, inc/widgets/widget-social.php:85, inc/widgets/widget-social.php:91, inc/widgets/widget-social.php:97, inc/widgets/widget-social.php:103, inc/widgets/widget-social.php:110
+msgid ""
 msgstr ""
 
 #: inc/widgets/widget-social.php:125
